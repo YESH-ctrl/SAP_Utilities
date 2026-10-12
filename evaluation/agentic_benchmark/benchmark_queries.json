@@ -1,0 +1,66 @@
+[
+  {
+    "id": "BENCH-01",
+    "category": "procedural",
+    "query": "What is the procedure to reverse a contract in SAP Utilities integration?",
+    "expected_entities": ["Contract", "Reversal", "Move-In", "Move-Out", "IS-U"],
+    "is_answerable": true,
+    "expected_action": "ordered_steps"
+  },
+  {
+    "id": "BENCH-02",
+    "category": "factual",
+    "query": "How do I create an installment plan?",
+    "expected_entities": ["Installment Plan", "FI-CA", "Receivables", "Items"],
+    "is_answerable": true,
+    "expected_action": "direct_explanation"
+  },
+  {
+    "id": "BENCH-03",
+    "category": "configuration",
+    "query": "What are the configuration prerequisites and settings for meter reading estimation in SAP IS-U?",
+    "expected_entities": ["Estimation", "Meter Reading", "Rate Category", "Registers"],
+    "is_answerable": true,
+    "expected_action": "specification_table"
+  },
+  {
+    "id": "BENCH-04",
+    "category": "relationship",
+    "query": "How does a contract account connect to a business partner and contract in the SAP Utilities data model?",
+    "expected_entities": ["Contract Account", "Business Partner", "Contract", "Installation"],
+    "is_answerable": true,
+    "expected_action": "relationship_mapping"
+  },
+  {
+    "id": "BENCH-05",
+    "category": "troubleshooting",
+    "query": "Why would an installment plan interest calculation fail with an exception or missing item error?",
+    "expected_entities": ["Interest Calculation", "Installment Plan", "Exception", "Posting"],
+    "is_answerable": true,
+    "expected_action": "diagnostic_flow"
+  },
+  {
+    "id": "BENCH-06",
+    "category": "ambiguous",
+    "query": "How do I process billing exceptions?",
+    "expected_entities": ["Billing Exception", "Outsorting", "Clarification Processing"],
+    "is_answerable": true,
+    "expected_action": "structured_guide"
+  },
+  {
+    "id": "BENCH-07",
+    "category": "conflict",
+    "query": "What is the difference between classic meter reading uploads and smart meter AMI integration in S/4HANA Utilities?",
+    "expected_entities": ["AMI", "Smart Meter", "Meter Reading", "Advanced Metering Infrastructure"],
+    "is_answerable": true,
+    "expected_action": "comparative_analysis"
+  },
+  {
+    "id": "BENCH-08",
+    "category": "insufficient_evidence",
+    "query": "How do I configure non-existent transaction ZZZ99 in SAP S/4HANA Utilities Cloud?",
+    "expected_entities": ["ZZZ99"],
+    "is_answerable": false,
+    "expected_action": "abstain_transparently"
+  }
+]

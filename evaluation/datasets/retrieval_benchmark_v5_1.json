@@ -1,0 +1,3234 @@
+[
+  {
+    "query_id": "1",
+    "query": "How do I create an installment plan?",
+    "relevant_sources": [
+      23,
+      24,
+      25
+    ],
+    "expected_source_ids": [
+      23,
+      24,
+      25
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 4740,
+        "title": "Create Installment Plans Asynchronously from SD Data",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/89e34d0e2c5b4ea38c6fb20f7c53e658.html?version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 4750,
+        "title": "Create Installment Plans Asynchronously from SD Data",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/89e34d0e2c5b4ea38c6fb20f7c53e658.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 4737,
+        "title": "Charging Interest and Surcharges for Installment Plans",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/046ed05fdff44584b3c1e3c004263515.html?version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      4740,
+      4750,
+      4737
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11941,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11942,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11943,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11944,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11945,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11941,
+      11942,
+      11943,
+      11944,
+      11945
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "2",
+    "query": "How does clearing control work for incoming payments?",
+    "relevant_sources": [
+      19,
+      20,
+      21
+    ],
+    "expected_source_ids": [
+      19,
+      20,
+      21
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 19,
+        "title": "Analyze Incoming Payments",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/063bf3eb68e347efa5c0fc1d389f70f7.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 4751,
+        "title": "Analyze Overdue Items",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/ee1389588bf89244e10000000a4450e5.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 4752,
+        "title": "Analyze Open Credits",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/32a43489d5df472ba6ba67bb0074c087.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      19,
+      4751,
+      4752
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11649,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11650,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11651,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11652,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11653,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11649,
+      11650,
+      11651,
+      11652,
+      11653
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "3",
+    "query": "What is the process for automatic billing?",
+    "relevant_sources": [
+      11,
+      12
+    ],
+    "expected_source_ids": [
+      11,
+      12
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 2391,
+        "title": "ABAP OO Classes for Contract-Related Simulation Scenarios",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/ca7ace53118d4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2297,
+        "title": "Upload Prices",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/f51a0651f840cc26e10000000a441470.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2262,
+        "title": "Displaying a Payment Scheme",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/327cce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      2391,
+      2297,
+      2262
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 9320,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 9321,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 9322,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 9323,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 9324,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      9320,
+      9321,
+      9322,
+      9323,
+      9324
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "4",
+    "query": "How are meter readings estimated?",
+    "relevant_sources": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "expected_source_ids": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 2601,
+        "title": "Extrapolation for Demand Registers",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/4d91d0533f8e4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2652,
+        "title": "Defining the Quantity Determination Procedure",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/b9dc3f66d1734715a3dda3fd7e387aea.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2625,
+        "title": "Upload",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/1a90d0533f8e4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      2601,
+      2652,
+      2625
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 6847,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6848,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6849,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6850,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6851,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      6847,
+      6848,
+      6849,
+      6850,
+      6851
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "5",
+    "query": "What happens during move-in?",
+    "relevant_sources": [
+      2,
+      3,
+      10
+    ],
+    "expected_source_ids": [
+      2,
+      3,
+      10
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 2687,
+        "title": "Disconnection Order Generation",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/5c82ce53118d4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2686,
+        "title": "Disconnection Document Release",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/5982ce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2688,
+        "title": "Disconnection Entry",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/d980ce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      2687,
+      2686,
+      2688
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 7162,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 7163,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 7164,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 7165,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 7166,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      7162,
+      7163,
+      7164,
+      7165,
+      7166
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "6",
+    "query": "What happens during move-out?",
+    "relevant_sources": [
+      2,
+      4
+    ],
+    "expected_source_ids": [
+      2,
+      4
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 4,
+        "title": "Move-Out",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/0f81ce53118d4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2433,
+        "title": "Move-In/Out Processing",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/0681ce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2438,
+        "title": "Contract Change without Invoicing",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/8280ce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      4,
+      2433,
+      2438
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 6070,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6071,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6072,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6073,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6074,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      6070,
+      6071,
+      6072,
+      6073,
+      6074
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "7",
+    "query": "How does FI-CA dunning work?",
+    "relevant_sources": [
+      26
+    ],
+    "expected_source_ids": [
+      26
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3690,
+        "title": "Dunning Grouping",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/d8ffc5536a51204be10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3694,
+        "title": "Calculation of Interest and Charges According to Fiscal Code",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/2affc5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3696,
+        "title": "Dunning Run",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/6cffc5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3690,
+      3694,
+      3696
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12039,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12040,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12041,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12042,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12043,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12039,
+      12040,
+      12041,
+      12042,
+      12043
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "8",
+    "query": "How are incoming payments processed?",
+    "relevant_sources": [
+      19,
+      22
+    ],
+    "expected_source_ids": [
+      19,
+      22
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 19,
+        "title": "Analyze Incoming Payments",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/063bf3eb68e347efa5c0fc1d389f70f7.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 22,
+        "title": "Processing Incoming Payments",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/3d0ac5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 4353,
+        "title": "Transferring Payments",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/400ac5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      19,
+      22,
+      4353
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11649,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11650,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11651,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11652,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11653,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11649,
+      11650,
+      11651,
+      11652,
+      11653
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "9",
+    "query": "What are clearing types in SAP Utilities?",
+    "relevant_sources": [
+      20,
+      21
+    ],
+    "expected_source_ids": [
+      20,
+      21
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 20,
+        "title": "Clearing Control in Incoming Payments",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/edcd0c5823854d3296f2591e9f5d118c.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 21,
+        "title": "Clearing Type",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/e63529e1a3fd42e3a0e2c009ac783e0d.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 4762,
+        "title": "Clearing Control in Account Maintenance",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/6ca0a716cc0b4e2b960c84f4b8b21a50.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      20,
+      21,
+      4762
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11752,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11753,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11754,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11752,
+      11753,
+      11754
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "10",
+    "query": "How does budget billing work?",
+    "relevant_sources": [
+      13,
+      15
+    ],
+    "expected_source_ids": [
+      13,
+      15
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3045,
+        "title": "Selling a Utilities Product",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/a9e0e227d80548b18127fb09e4a9cdc8.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3051,
+        "title": "Sales Pricing to Utilities",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/8455b3d1ea2d4927843f3f2ba18f6aac.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3059,
+        "title": "Archiving Utilities Sales Contracts Using CRMS4_IUCH",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/6b0423b98dd743e99f64108814a82b85.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3045,
+      3051,
+      3059
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 10195,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 10196,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 10197,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 10198,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 10199,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      10195,
+      10196,
+      10197,
+      10198,
+      10199
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "11",
+    "query": "What master data is required for SAP Utilities?",
+    "relevant_sources": [
+      1,
+      17,
+      18
+    ],
+    "expected_source_ids": [
+      1,
+      17,
+      18
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 942,
+        "title": "Business Partner in the Contract Partner Role (MKK)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/98e7c5536a51204be10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 3623,
+        "title": "Check Benefit Free Period",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375c1cad104b2eb7d027369bd76638/c7e5169090ed11db2b24000f20dac9ef.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      },
+      {
+        "document_id": 3628,
+        "title": "Find Contract Account Account Balance by Customer",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375c1cad104b2eb7d027369bd76638/925e4852c3aa11da2b24000f20dac9ef.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      942,
+      3623,
+      3628
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 5556,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 5557,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 5558,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 5559,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 5560,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      5556,
+      5557,
+      5558,
+      5559,
+      5560
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "12",
+    "query": "How is device management configured for meters?",
+    "relevant_sources": [
+      5
+    ],
+    "expected_source_ids": [
+      5
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3979,
+        "title": "Extrapolation for Demand Registers",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/4d91d0533f8e4308e10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 4066,
+        "title": "Defining the Quantity Determination Procedure",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/b9dc3f66d1734715a3dda3fd7e387aea.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      },
+      {
+        "document_id": 3957,
+        "title": "Register Relationship",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/7790d0533f8e4308e10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3979,
+      4066,
+      3957
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 6400,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6401,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6402,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6403,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6404,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      6400,
+      6401,
+      6402,
+      6403,
+      6404
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "13",
+    "query": "How to monitor meter reading results?",
+    "relevant_sources": [
+      7
+    ],
+    "expected_source_ids": [
+      7
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 2601,
+        "title": "Extrapolation for Demand Registers",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/4d91d0533f8e4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2652,
+        "title": "Defining the Quantity Determination Procedure",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/b9dc3f66d1734715a3dda3fd7e387aea.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2625,
+        "title": "Upload",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/1a90d0533f8e4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      2601,
+      2652,
+      2625
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 6847,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6848,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6849,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6850,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6851,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      6847,
+      6848,
+      6849,
+      6850,
+      6851
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "14",
+    "query": "What are the details of the estimation procedure?",
+    "relevant_sources": [
+      8,
+      9
+    ],
+    "expected_source_ids": [
+      8,
+      9
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 8,
+        "title": "Estimation",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/d090d0533f8e4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 9,
+        "title": "Estimation Procedure",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/bf74c1d28fd54f77b228772b98b72fba.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      8,
+      9
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 7129,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 7130,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 7131,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 7132,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 7133,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      7129,
+      7130,
+      7131,
+      7132,
+      7133
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "15",
+    "query": "How is meter reading data processed during move-in?",
+    "relevant_sources": [
+      3,
+      10
+    ],
+    "expected_source_ids": [
+      3,
+      10
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 2687,
+        "title": "Disconnection Order Generation",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/5c82ce53118d4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2686,
+        "title": "Disconnection Document Release",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/5982ce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2688,
+        "title": "Disconnection Entry",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/d980ce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      2687,
+      2686,
+      2688
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 7162,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 7163,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 7164,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 7165,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 7166,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      7162,
+      7163,
+      7164,
+      7165,
+      7166
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "16",
+    "query": "What is the billing procedure in SAP Utilities?",
+    "relevant_sources": [
+      11,
+      16
+    ],
+    "expected_source_ids": [
+      11,
+      16
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 2391,
+        "title": "ABAP OO Classes for Contract-Related Simulation Scenarios",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/ca7ace53118d4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2297,
+        "title": "Upload Prices",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/f51a0651f840cc26e10000000a441470.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2262,
+        "title": "Displaying a Payment Scheme",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/327cce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      2391,
+      2297,
+      2262
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 9320,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 9321,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 9322,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 9323,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 9324,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      9320,
+      9321,
+      9322,
+      9323,
+      9324
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "17",
+    "query": "How is the invoicing procedure executed?",
+    "relevant_sources": [
+      14,
+      16
+    ],
+    "expected_source_ids": [
+      14,
+      16
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3470,
+        "title": "Resolve Outsorted Billing Documents (F2186)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/e668f657772ebc12e10000000a4450e5.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3480,
+        "title": "Resolve Outsorted Invoicing Documents (F3253)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/3a1a85c4ff644c6c84e9b2b189872a2b.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3483,
+        "title": "Process Billing Errors (F3358)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/3b4bc0335bbb4f75b2f474ada308eb65.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3470,
+      3480,
+      3483
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11112,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11113,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11114,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11115,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11116,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11112,
+      11113,
+      11114,
+      11115,
+      11116
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "18",
+    "query": "How to process budget billing plans?",
+    "relevant_sources": [
+      13,
+      15
+    ],
+    "expected_source_ids": [
+      13,
+      15
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3045,
+        "title": "Selling a Utilities Product",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/a9e0e227d80548b18127fb09e4a9cdc8.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3051,
+        "title": "Sales Pricing to Utilities",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/8455b3d1ea2d4927843f3f2ba18f6aac.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3059,
+        "title": "Archiving Utilities Sales Contracts Using CRMS4_IUCH",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/6b0423b98dd743e99f64108814a82b85.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3045,
+      3051,
+      3059
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 10195,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 10196,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 10197,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 10198,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 10199,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      10195,
+      10196,
+      10197,
+      10198,
+      10199
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "19",
+    "query": "What is a contract account business object?",
+    "relevant_sources": [
+      17,
+      18
+    ],
+    "expected_source_ids": [
+      17,
+      18
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3623,
+        "title": "Check Benefit Free Period",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375c1cad104b2eb7d027369bd76638/c7e5169090ed11db2b24000f20dac9ef.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 3628,
+        "title": "Find Contract Account Account Balance by Customer",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375c1cad104b2eb7d027369bd76638/925e4852c3aa11da2b24000f20dac9ef.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      },
+      {
+        "document_id": 3629,
+        "title": "Find Contract Account Receivables Payables Register Item by ID",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375c1cad104b2eb7d027369bd76638/133a8e81d70311db2b24000f20dac9ef.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3623,
+      3628,
+      3629
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11566,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11567,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11568,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11569,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11570,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11566,
+      11567,
+      11568,
+      11569,
+      11570
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "20",
+    "query": "How to process incoming payments from a collection agency?",
+    "relevant_sources": [
+      22,
+      28
+    ],
+    "expected_source_ids": [
+      22,
+      28
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 22,
+        "title": "Processing Incoming Payments",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/3d0ac5536a51204be10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 4353,
+        "title": "Transferring Payments",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/400ac5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 4356,
+        "title": "Enterprise Service CashPointPaymentReverseNotification",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/4f0ac5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      22,
+      4353,
+      4356
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11839,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11840,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11841,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11842,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11843,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11839,
+      11840,
+      11841,
+      11842,
+      11843
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "21",
+    "query": "What is the installment plan overview?",
+    "relevant_sources": [
+      23
+    ],
+    "expected_source_ids": [
+      23
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 4740,
+        "title": "Create Installment Plans Asynchronously from SD Data",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/89e34d0e2c5b4ea38c6fb20f7c53e658.html?version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 4737,
+        "title": "Charging Interest and Surcharges for Installment Plans",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/046ed05fdff44584b3c1e3c004263515.html?version=2025.001",
+        "relevance": 2
+      },
+      {
+        "document_id": 4734,
+        "title": "Creating Installment Plans",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/790dc5536a51204be10000000a174cb4.html?version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      4740,
+      4737,
+      4734
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11941,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11942,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11943,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11944,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11945,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11941,
+      11942,
+      11943,
+      11944,
+      11945
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "22",
+    "query": "How to display and change installment plans?",
+    "relevant_sources": [
+      25
+    ],
+    "expected_source_ids": [
+      25
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 25,
+        "title": "Displaying and Changing Installment Plans",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/630dc5536a51204be10000000a174cb4.html",
+        "relevance": 3
+      }
+    ],
+    "expected_document_ids": [
+      25
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12014,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12015,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12016,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12017,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12014,
+      12015,
+      12016,
+      12017
+    ],
+    "target_classification": "EXACT_DOCUMENT_TARGET"
+  },
+  {
+    "query_id": "23",
+    "query": "How to submit receivables to a collection agency?",
+    "relevant_sources": [
+      27,
+      28
+    ],
+    "expected_source_ids": [
+      27,
+      28
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3705,
+        "title": "Submission of Receivables to Collection Agency",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/3de7c5536a51204be10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3703,
+        "title": "Automatic Release",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/07e7c5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3697,
+        "title": "Releasing Receivables for Collection",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/31e7c5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3705,
+      3703,
+      3697
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12205,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12206,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12207,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12208,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12209,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12205,
+      12206,
+      12207,
+      12208,
+      12209
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "24",
+    "query": "What APIs exist for collection agency enterprise services?",
+    "relevant_sources": [
+      28
+    ],
+    "expected_source_ids": [
+      28
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 28,
+        "title": "Communicating with Collection Agencies by Using Enterprise Services or APIs",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/9c9c2344851f412f823d5f8a9dc7c694.html",
+        "relevance": 3
+      }
+    ],
+    "expected_document_ids": [
+      28
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12223,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12224,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12225,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12226,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12227,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12223,
+      12224,
+      12225,
+      12226,
+      12227
+    ],
+    "target_classification": "EXACT_DOCUMENT_TARGET"
+  },
+  {
+    "query_id": "25",
+    "query": "How does disconnection and reconnection of a utility installation work?",
+    "relevant_sources": [
+      29
+    ],
+    "expected_source_ids": [
+      29
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 29,
+        "title": "Disconnection/Reconnection of a Utility Installation",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/8682ce53118d4308e10000000a174cb4.html",
+        "relevance": 3
+      }
+    ],
+    "expected_document_ids": [
+      29
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12228,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12229,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12230,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12231,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12232,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12228,
+      12229,
+      12230,
+      12231,
+      12232
+    ],
+    "target_classification": "EXACT_DOCUMENT_TARGET"
+  },
+  {
+    "query_id": "26",
+    "query": "What is a business partner contract account relationship?",
+    "relevant_sources": [
+      1,
+      17,
+      18
+    ],
+    "expected_source_ids": [
+      1,
+      17,
+      18
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 942,
+        "title": "Business Partner in the Contract Partner Role (MKK)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/98e7c5536a51204be10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 3623,
+        "title": "Check Benefit Free Period",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375c1cad104b2eb7d027369bd76638/c7e5169090ed11db2b24000f20dac9ef.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      },
+      {
+        "document_id": 3628,
+        "title": "Find Contract Account Account Balance by Customer",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375c1cad104b2eb7d027369bd76638/925e4852c3aa11da2b24000f20dac9ef.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      942,
+      3623,
+      3628
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 5556,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 5557,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 5558,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 5559,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 5560,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      5556,
+      5557,
+      5558,
+      5559,
+      5560
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "27",
+    "query": "How are dunning notices generated in FI-CA?",
+    "relevant_sources": [
+      26
+    ],
+    "expected_source_ids": [
+      26
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3690,
+        "title": "Dunning Grouping",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/d8ffc5536a51204be10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3694,
+        "title": "Calculation of Interest and Charges According to Fiscal Code",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/2affc5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3696,
+        "title": "Dunning Run",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/6cffc5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3690,
+      3694,
+      3696
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12039,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12040,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12041,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12042,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12043,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12039,
+      12040,
+      12041,
+      12042,
+      12043
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "28",
+    "query": "How to handle move-in and move-out concurrently?",
+    "relevant_sources": [
+      2,
+      3,
+      4
+    ],
+    "expected_source_ids": [
+      2,
+      3,
+      4
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3,
+        "title": "Move-in",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/0981ce53118d4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 4,
+        "title": "Move-Out",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/0f81ce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2433,
+        "title": "Move-In/Out Processing",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/0681ce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3,
+      4,
+      2433
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 6040,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6041,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6042,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6043,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6044,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      6040,
+      6041,
+      6042,
+      6043,
+      6044
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "29",
+    "query": "What is periodic billing and invoicing analysis?",
+    "relevant_sources": [
+      16
+    ],
+    "expected_source_ids": [
+      16
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3470,
+        "title": "Resolve Outsorted Billing Documents (F2186)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/e668f657772ebc12e10000000a4450e5.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3480,
+        "title": "Resolve Outsorted Invoicing Documents (F3253)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/3a1a85c4ff644c6c84e9b2b189872a2b.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3483,
+        "title": "Process Billing Errors (F3358)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/3b4bc0335bbb4f75b2f474ada308eb65.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3470,
+      3480,
+      3483
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11112,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11113,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11114,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11115,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11116,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11112,
+      11113,
+      11114,
+      11115,
+      11116
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "30",
+    "query": "How does automatic rate determination work in billing?",
+    "relevant_sources": [
+      11,
+      12
+    ],
+    "expected_source_ids": [
+      11,
+      12
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 2391,
+        "title": "ABAP OO Classes for Contract-Related Simulation Scenarios",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/ca7ace53118d4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2297,
+        "title": "Upload Prices",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/f51a0651f840cc26e10000000a441470.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2262,
+        "title": "Displaying a Payment Scheme",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/327cce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      2391,
+      2297,
+      2262
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 9320,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 9321,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 9322,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 9323,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 9324,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      9320,
+      9321,
+      9322,
+      9323,
+      9324
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "31",
+    "query": "What is a budget billing scheme?",
+    "relevant_sources": [
+      13
+    ],
+    "expected_source_ids": [
+      13
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3045,
+        "title": "Selling a Utilities Product",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/a9e0e227d80548b18127fb09e4a9cdc8.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3051,
+        "title": "Sales Pricing to Utilities",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/8455b3d1ea2d4927843f3f2ba18f6aac.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3059,
+        "title": "Archiving Utilities Sales Contracts Using CRMS4_IUCH",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/6b0423b98dd743e99f64108814a82b85.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3045,
+      3051,
+      3059
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 10195,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 10196,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 10197,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 10198,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 10199,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      10195,
+      10196,
+      10197,
+      10198,
+      10199
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "32",
+    "query": "How are register groups assigned in device management?",
+    "relevant_sources": [
+      5
+    ],
+    "expected_source_ids": [
+      5
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3979,
+        "title": "Extrapolation for Demand Registers",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/4d91d0533f8e4308e10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 4066,
+        "title": "Defining the Quantity Determination Procedure",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/b9dc3f66d1734715a3dda3fd7e387aea.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      },
+      {
+        "document_id": 3957,
+        "title": "Register Relationship",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/7790d0533f8e4308e10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3979,
+      4066,
+      3957
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 6400,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6401,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6402,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6403,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6404,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      6400,
+      6401,
+      6402,
+      6403,
+      6404
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "33",
+    "query": "How to handle manual meter reading entry?",
+    "relevant_sources": [
+      6,
+      7
+    ],
+    "expected_source_ids": [
+      6,
+      7
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 2601,
+        "title": "Extrapolation for Demand Registers",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/4d91d0533f8e4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2652,
+        "title": "Defining the Quantity Determination Procedure",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/b9dc3f66d1734715a3dda3fd7e387aea.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2625,
+        "title": "Upload",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/1a90d0533f8e4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      2601,
+      2652,
+      2625
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 6847,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6848,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6849,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6850,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6851,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      6847,
+      6848,
+      6849,
+      6850,
+      6851
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "34",
+    "query": "What is clearing proposal in payment processing?",
+    "relevant_sources": [
+      19,
+      20
+    ],
+    "expected_source_ids": [
+      19,
+      20
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 19,
+        "title": "Analyze Incoming Payments",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/063bf3eb68e347efa5c0fc1d389f70f7.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 4751,
+        "title": "Analyze Overdue Items",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/ee1389588bf89244e10000000a4450e5.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 4752,
+        "title": "Analyze Open Credits",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/32a43489d5df472ba6ba67bb0074c087.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      19,
+      4751,
+      4752
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11649,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11650,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11651,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11652,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11653,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11649,
+      11650,
+      11651,
+      11652,
+      11653
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "35",
+    "query": "How to reverse an invoicing document?",
+    "relevant_sources": [
+      14
+    ],
+    "expected_source_ids": [
+      14
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 2856,
+        "title": "Generation of Billable Items in Convergent Invoicing",
+        "canonical_url": "https://help.sap.com/docs/sap_s4hana_on-premise/a003b275c98148ee8a4c3fafe9588fe3/4df4246bd8eb44319e42556ec72ef9dd.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2906,
+        "title": "Invoicing Reversal",
+        "canonical_url": "https://help.sap.com/docs/sap_s4hana_on-premise/a003b275c98148ee8a4c3fafe9588fe3/de7bce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2910,
+        "title": "Collective Bill",
+        "canonical_url": "https://help.sap.com/docs/sap_s4hana_on-premise/a003b275c98148ee8a4c3fafe9588fe3/857dce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      2856,
+      2906,
+      2910
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 10616,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 10617,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 10618,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 10619,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 10620,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      10616,
+      10617,
+      10618,
+      10619,
+      10620
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "36",
+    "query": "What is dunning activity code?",
+    "relevant_sources": [
+      26
+    ],
+    "expected_source_ids": [
+      26
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3690,
+        "title": "Dunning Grouping",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/d8ffc5536a51204be10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3694,
+        "title": "Calculation of Interest and Charges According to Fiscal Code",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/2affc5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3696,
+        "title": "Dunning Run",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/6cffc5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3690,
+      3694,
+      3696
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12039,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12040,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12041,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12042,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12043,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12039,
+      12040,
+      12041,
+      12042,
+      12043
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "37",
+    "query": "How to cancel an installment plan?",
+    "relevant_sources": [
+      23,
+      25
+    ],
+    "expected_source_ids": [
+      23,
+      25
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 4740,
+        "title": "Create Installment Plans Asynchronously from SD Data",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/89e34d0e2c5b4ea38c6fb20f7c53e658.html?version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 4737,
+        "title": "Charging Interest and Surcharges for Installment Plans",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/046ed05fdff44584b3c1e3c004263515.html?version=2025.001",
+        "relevance": 2
+      },
+      {
+        "document_id": 4734,
+        "title": "Creating Installment Plans",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/790dc5536a51204be10000000a174cb4.html?version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      4740,
+      4737,
+      4734
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11941,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11942,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11943,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11944,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11945,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11941,
+      11942,
+      11943,
+      11944,
+      11945
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "38",
+    "query": "What is collection agency file transfer format?",
+    "relevant_sources": [
+      27,
+      28
+    ],
+    "expected_source_ids": [
+      27,
+      28
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3705,
+        "title": "Submission of Receivables to Collection Agency",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/3de7c5536a51204be10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3703,
+        "title": "Automatic Release",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/07e7c5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3697,
+        "title": "Releasing Receivables for Collection",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/31e7c5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3705,
+      3703,
+      3697
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12205,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12206,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12207,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12208,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12209,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12205,
+      12206,
+      12207,
+      12208,
+      12209
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "39",
+    "query": "How to process disconnection order?",
+    "relevant_sources": [
+      29
+    ],
+    "expected_source_ids": [
+      29
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 29,
+        "title": "Disconnection/Reconnection of a Utility Installation",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/8682ce53118d4308e10000000a174cb4.html",
+        "relevance": 3
+      }
+    ],
+    "expected_document_ids": [
+      29
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12228,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12229,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12230,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12231,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12232,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12228,
+      12229,
+      12230,
+      12231,
+      12232
+    ],
+    "target_classification": "EXACT_DOCUMENT_TARGET"
+  },
+  {
+    "query_id": "40",
+    "query": "What is connection object in master data?",
+    "relevant_sources": [
+      1
+    ],
+    "expected_source_ids": [
+      1
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 942,
+        "title": "Business Partner in the Contract Partner Role (MKK)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/98e7c5536a51204be10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 953,
+        "title": "Making Settings for the Postprocessing Office",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/8a53674ab91f4f929d265d9b1de6f469.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      },
+      {
+        "document_id": 1014,
+        "title": "Point of Delivery (PoD)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/076ace53118d4308e10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      942,
+      953,
+      1014
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 5556,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 5557,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 5558,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 5559,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 5560,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      5556,
+      5557,
+      5558,
+      5559,
+      5560
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "41",
+    "query": "What is premise in SAP Utilities?",
+    "relevant_sources": [
+      1
+    ],
+    "expected_source_ids": [
+      1
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 942,
+        "title": "Business Partner in the Contract Partner Role (MKK)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/98e7c5536a51204be10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 953,
+        "title": "Making Settings for the Postprocessing Office",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/8a53674ab91f4f929d265d9b1de6f469.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      },
+      {
+        "document_id": 1014,
+        "title": "Point of Delivery (PoD)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/076ace53118d4308e10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      942,
+      953,
+      1014
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 5556,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 5557,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 5558,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 5559,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 5560,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      5556,
+      5557,
+      5558,
+      5559,
+      5560
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "42",
+    "query": "What is point of delivery POD?",
+    "relevant_sources": [
+      1
+    ],
+    "expected_source_ids": [
+      1
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 942,
+        "title": "Business Partner in the Contract Partner Role (MKK)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/98e7c5536a51204be10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 953,
+        "title": "Making Settings for the Postprocessing Office",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/8a53674ab91f4f929d265d9b1de6f469.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      },
+      {
+        "document_id": 1014,
+        "title": "Point of Delivery (PoD)",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/076ace53118d4308e10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      942,
+      953,
+      1014
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 5556,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 5557,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 5558,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 5559,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 5560,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      5556,
+      5557,
+      5558,
+      5559,
+      5560
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "43",
+    "query": "How to create a budget billing plan manually?",
+    "relevant_sources": [
+      13,
+      15
+    ],
+    "expected_source_ids": [
+      13,
+      15
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3045,
+        "title": "Selling a Utilities Product",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/a9e0e227d80548b18127fb09e4a9cdc8.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3051,
+        "title": "Sales Pricing to Utilities",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/8455b3d1ea2d4927843f3f2ba18f6aac.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3059,
+        "title": "Archiving Utilities Sales Contracts Using CRMS4_IUCH",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/6b0423b98dd743e99f64108814a82b85.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3045,
+      3051,
+      3059
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 10195,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 10196,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 10197,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 10198,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 10199,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      10195,
+      10196,
+      10197,
+      10198,
+      10199
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "44",
+    "query": "What is out-of-sorting billing document check?",
+    "relevant_sources": [
+      11,
+      16
+    ],
+    "expected_source_ids": [
+      11,
+      16
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 2391,
+        "title": "ABAP OO Classes for Contract-Related Simulation Scenarios",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/ca7ace53118d4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2297,
+        "title": "Upload Prices",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/f51a0651f840cc26e10000000a441470.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2262,
+        "title": "Displaying a Payment Scheme",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/327cce53118d4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      2391,
+      2297,
+      2262
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 9320,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 9321,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 9322,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 9323,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 9324,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      9320,
+      9321,
+      9322,
+      9323,
+      9324
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "45",
+    "query": "How to process payment lot in FI-CA?",
+    "relevant_sources": [
+      19,
+      22
+    ],
+    "expected_source_ids": [
+      19,
+      22
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 19,
+        "title": "Analyze Incoming Payments",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/063bf3eb68e347efa5c0fc1d389f70f7.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 22,
+        "title": "Processing Incoming Payments",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/3d0ac5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 4353,
+        "title": "Transferring Payments",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/400ac5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      19,
+      22,
+      4353
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 11649,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11650,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 11651,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11652,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 11653,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      11649,
+      11650,
+      11651,
+      11652,
+      11653
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "46",
+    "query": "How to handle meter exchange procedure?",
+    "relevant_sources": [
+      5
+    ],
+    "expected_source_ids": [
+      5
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3979,
+        "title": "Extrapolation for Demand Registers",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/4d91d0533f8e4308e10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 3
+      },
+      {
+        "document_id": 4066,
+        "title": "Defining the Quantity Determination Procedure",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/b9dc3f66d1734715a3dda3fd7e387aea.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      },
+      {
+        "document_id": 3957,
+        "title": "Register Relationship",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/7790d0533f8e4308e10000000a174cb4.html?locale=en-US&state=PRODUCTION&version=2025.001",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3979,
+      4066,
+      3957
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 6400,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6401,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6402,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6403,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6404,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      6400,
+      6401,
+      6402,
+      6403,
+      6404
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "47",
+    "query": "What is plausible and implausible meter reading result?",
+    "relevant_sources": [
+      7,
+      8
+    ],
+    "expected_source_ids": [
+      7,
+      8
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 2601,
+        "title": "Extrapolation for Demand Registers",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/4d91d0533f8e4308e10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 2652,
+        "title": "Defining the Quantity Determination Procedure",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/b9dc3f66d1734715a3dda3fd7e387aea.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 2625,
+        "title": "Upload",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/1a90d0533f8e4308e10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      2601,
+      2652,
+      2625
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 6847,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6848,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 6849,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6850,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 6851,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      6847,
+      6848,
+      6849,
+      6850,
+      6851
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "48",
+    "query": "How does dunning proposal run work?",
+    "relevant_sources": [
+      26
+    ],
+    "expected_source_ids": [
+      26
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3690,
+        "title": "Dunning Grouping",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/d8ffc5536a51204be10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3694,
+        "title": "Calculation of Interest and Charges According to Fiscal Code",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/2affc5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3696,
+        "title": "Dunning Run",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/6cffc5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3690,
+      3694,
+      3696
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12039,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12040,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12041,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12042,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12043,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12039,
+      12040,
+      12041,
+      12042,
+      12043
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "49",
+    "query": "How to release submission to collection agency?",
+    "relevant_sources": [
+      27
+    ],
+    "expected_source_ids": [
+      27
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 3705,
+        "title": "Submission of Receivables to Collection Agency",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/3de7c5536a51204be10000000a174cb4.html",
+        "relevance": 3
+      },
+      {
+        "document_id": 3703,
+        "title": "Automatic Release",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/07e7c5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      },
+      {
+        "document_id": 3697,
+        "title": "Releasing Receivables for Collection",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/31e7c5536a51204be10000000a174cb4.html",
+        "relevance": 2
+      }
+    ],
+    "expected_document_ids": [
+      3705,
+      3703,
+      3697
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12205,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12206,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12207,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12208,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12209,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12205,
+      12206,
+      12207,
+      12208,
+      12209
+    ],
+    "target_classification": "MULTIPLE_VALID_DOCUMENT_TARGETS"
+  },
+  {
+    "query_id": "50",
+    "query": "How to perform reconnection of utility service?",
+    "relevant_sources": [
+      29
+    ],
+    "expected_source_ids": [
+      29
+    ],
+    "relevant_documents": [
+      {
+        "document_id": 29,
+        "title": "Disconnection/Reconnection of a Utility Installation",
+        "canonical_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/8682ce53118d4308e10000000a174cb4.html",
+        "relevance": 3
+      }
+    ],
+    "expected_document_ids": [
+      29
+    ],
+    "relevant_chunks": [
+      {
+        "chunk_id": 12228,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12229,
+        "relevance": 3
+      },
+      {
+        "chunk_id": 12230,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12231,
+        "relevance": 2
+      },
+      {
+        "chunk_id": 12232,
+        "relevance": 2
+      }
+    ],
+    "expected_chunk_ids": [
+      12228,
+      12229,
+      12230,
+      12231,
+      12232
+    ],
+    "target_classification": "EXACT_DOCUMENT_TARGET"
+  }
+]

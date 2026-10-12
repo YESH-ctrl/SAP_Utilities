@@ -1,0 +1,383 @@
+{
+  "mode_metrics": {
+    "dense_only": {
+      "mrr": 0.6105,
+      "recall@5": 0.7,
+      "precision@5": 0.524,
+      "recall@10": 0.74,
+      "precision@10": 0.482,
+      "recall@20": 0.76,
+      "precision@20": 0.459
+    },
+    "lexical_only": {
+      "mrr": 0.7092,
+      "recall@5": 0.7933,
+      "precision@5": 0.608,
+      "recall@10": 0.85,
+      "precision@10": 0.5571,
+      "recall@20": 0.88,
+      "precision@20": 0.4901
+    },
+    "hybrid": {
+      "mrr": 0.6672,
+      "recall@5": 0.695,
+      "precision@5": 0.548,
+      "recall@10": 0.74,
+      "precision@10": 0.496,
+      "recall@20": 0.76,
+      "precision@20": 0.462
+    },
+    "hybrid_metadata": {
+      "mrr": 0.6564,
+      "recall@5": 0.67,
+      "precision@5": 0.524,
+      "recall@10": 0.74,
+      "precision@10": 0.498,
+      "recall@20": 0.76,
+      "precision@20": 0.475
+    },
+    "hybrid_metadata_rerank": {
+      "mrr": 0.6897,
+      "recall@5": 0.79,
+      "precision@5": 0.58,
+      "recall@10": 0.86,
+      "precision@10": 0.548,
+      "recall@20": 0.86,
+      "precision@20": 0.548
+    },
+    "full_pipeline": {
+      "mrr": 0.7012,
+      "recall@5": 0.7983,
+      "precision@5": 0.564,
+      "recall@10": 0.86,
+      "precision@10": 0.56,
+      "recall@20": 0.86,
+      "precision@20": 0.56
+    }
+  },
+  "sample_queries": [
+    {
+      "query": "How do I create an installment plan?",
+      "top_document": "How to Create Sales Contracts for Existing Contracts from Third-Party Systems",
+      "top_section_id": 4419,
+      "top_chunk_id": 10167,
+      "score": 0.3956,
+      "latency_ms": 1039.64,
+      "expected_sources": [
+        23,
+        24,
+        25
+      ],
+      "retrieved_top_source": 13,
+      "source_match": false,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nHow to Create Sales Contracts for Existing Contracts from Third-Party Systems\n\n[PATH]\nBudget Billing Plan > Utilities Sales Contract Manage..."
+    },
+    {
+      "query": "How does clearing control work for incoming payments?",
+      "top_document": "Clearing Control in Incoming Payments",
+      "top_section_id": 6260,
+      "top_chunk_id": 11754,
+      "score": 0.6995,
+      "latency_ms": 976.37,
+      "expected_sources": [
+        19,
+        20,
+        21
+      ],
+      "retrieved_top_source": 20,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nClearing Control in Incoming Payments\n\n[PATH]\nClearing Control in Incoming Payments\n\n[SECTION]\nClearing Control in Incoming Payments\n\n[CONT..."
+    },
+    {
+      "query": "What is the process for automatic billing?",
+      "top_document": "Automatic Billing",
+      "top_section_id": 1541,
+      "top_chunk_id": 9499,
+      "score": 0.7142,
+      "latency_ms": 1129.05,
+      "expected_sources": [
+        11,
+        12
+      ],
+      "retrieved_top_source": 12,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nAutomatic Billing\n\n[PATH]\nAutomatic Billing > Invoicing\n\n[SECTION]\nInvoicing\n\n[CONTENT]\nfor Account Assignment Objects\nDetermining Input Ta..."
+    },
+    {
+      "query": "How are meter readings estimated?",
+      "top_document": "Meter Reading Result",
+      "top_section_id": 3967,
+      "top_chunk_id": 6949,
+      "score": 0.6178,
+      "latency_ms": 647.35,
+      "expected_sources": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "retrieved_top_source": 7,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nMeter Reading Result\n\n[PATH]\nMonitoring Meter Reading Results > Monitoring of Meter Reading Results > Meter Reading Result > Use\ue088\n\n[SECTION..."
+    },
+    {
+      "query": "What happens during move-in?",
+      "top_document": "Move-in",
+      "top_section_id": 1445,
+      "top_chunk_id": 6045,
+      "score": 0.5297,
+      "latency_ms": 763.47,
+      "expected_sources": [
+        2,
+        3,
+        10
+      ],
+      "retrieved_top_source": 3,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nMove-in\n\n[PATH]\nMove In Process > Move-in > Activities\ue088\n\n[SECTION]\nActivities\ue088\n\n[CONTENT]\nInitial Screen\nBased on the data you specified on..."
+    },
+    {
+      "query": "What happens during move-out?",
+      "top_document": "Move-Out",
+      "top_section_id": 1458,
+      "top_chunk_id": 6072,
+      "score": 0.5495,
+      "latency_ms": 750.51,
+      "expected_sources": [
+        2,
+        4
+      ],
+      "retrieved_top_source": 4,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nMove-Out\n\n[PATH]\nMove Out Process > Move-Out > Use\ue088\n\n[SECTION]\nUse\ue088\n\n[CONTENT]\nDuring the move-out transaction, you execute most of the act..."
+    },
+    {
+      "query": "How does FI-CA dunning work?",
+      "top_document": "Dunning Procedure",
+      "top_section_id": 3187,
+      "top_chunk_id": 12025,
+      "score": 0.5644,
+      "latency_ms": 1667.12,
+      "expected_sources": [
+        26
+      ],
+      "retrieved_top_source": 26,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nDunning Procedure\n\n[PATH]\nFI CA Dunning > Dunning > Configuration of the Dunning Process Flows > Dunning Procedure > Contract Accounting\n\n[..."
+    },
+    {
+      "query": "How are incoming payments processed?",
+      "top_document": "Monitoring Payments",
+      "top_section_id": 5258,
+      "top_chunk_id": 11879,
+      "score": 0.5906,
+      "latency_ms": 853.61,
+      "expected_sources": [
+        19,
+        22
+      ],
+      "retrieved_top_source": 22,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nMonitoring Payments\n\n[PATH]\nProcessing Incoming Payments from External Cash Desks > Processing Incoming Payments > Monitoring Payments > Ke..."
+    },
+    {
+      "query": "What are clearing types in SAP Utilities?",
+      "top_document": "Using Transaction Types for Utilities Sales Contract Creation",
+      "top_section_id": 3394,
+      "top_chunk_id": 10316,
+      "score": 0.4468,
+      "latency_ms": 1249.83,
+      "expected_sources": [
+        20,
+        21
+      ],
+      "retrieved_top_source": 13,
+      "source_match": false,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nUsing Transaction Types for Utilities Sales Contract Creation\n\n[PATH]\nBudget Billing Plan > Utilities Sales Contract Management > Using Tra..."
+    },
+    {
+      "query": "How does budget billing work?",
+      "top_document": "Budget Billing Amounts",
+      "top_section_id": 5853,
+      "top_chunk_id": 8791,
+      "score": 0.6138,
+      "latency_ms": 1045.64,
+      "expected_sources": [
+        13,
+        15
+      ],
+      "retrieved_top_source": 11,
+      "source_match": false,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nBudget Billing Amounts\n\n[PATH]\nSAP Utilities Billing Procedure > Billing Procedure > Contract Billing > Billing Master Data and Basic Setti..."
+    },
+    {
+      "query": "What master data is required for SAP Utilities?",
+      "top_document": "Enterprise Search for Utilities Master Data",
+      "top_section_id": 2439,
+      "top_chunk_id": 11297,
+      "score": 0.5908,
+      "latency_ms": 621.71,
+      "expected_sources": [
+        1,
+        17,
+        18
+      ],
+      "retrieved_top_source": 16,
+      "source_match": false,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nEnterprise Search for Utilities Master Data\n\n[PATH]\nPeriodic Billing and Invoicing Analysis > SAP Documentation Topic > Enterprise Search f..."
+    },
+    {
+      "query": "How is device management configured for meters?",
+      "top_document": "Device Management",
+      "top_section_id": 3892,
+      "top_chunk_id": 6094,
+      "score": 0.5699,
+      "latency_ms": 634.9,
+      "expected_sources": [
+        5
+      ],
+      "retrieved_top_source": 5,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nDevice Management\n\n[PATH]\nDevice Management Overview > Device Management > Device Management\n\n[SECTION]\nDevice Management\n\n[CONTENT]\nVersio..."
+    },
+    {
+      "query": "How to monitor meter reading results?",
+      "top_document": "Monitoring of Meter Reading Results",
+      "top_section_id": 5022,
+      "top_chunk_id": 6598,
+      "score": 0.782,
+      "latency_ms": 632.61,
+      "expected_sources": [
+        7
+      ],
+      "retrieved_top_source": 5,
+      "source_match": false,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nMonitoring of Meter Reading Results\n\n[PATH]\nDevice Management Overview > Device Management > Reading Meters > Monitoring > Monitoring of Me..."
+    },
+    {
+      "query": "What are the details of the estimation procedure?",
+      "top_document": "Guided Procedure Configuration",
+      "top_section_id": 2969,
+      "top_chunk_id": 10054,
+      "score": 0.3938,
+      "latency_ms": 847.87,
+      "expected_sources": [
+        8,
+        9
+      ],
+      "retrieved_top_source": 13,
+      "source_match": false,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nGuided Procedure Configuration\n\n[PATH]\nBudget Billing Plan > Utilities Sales Contract Management > Guided Procedure Configuration > Utiliti..."
+    },
+    {
+      "query": "How is meter reading data processed during move-in?",
+      "top_document": "Meter Reading Data (Move-In)",
+      "top_section_id": 1300,
+      "top_chunk_id": 7141,
+      "score": 0.7147,
+      "latency_ms": 793.1,
+      "expected_sources": [
+        3,
+        10
+      ],
+      "retrieved_top_source": 10,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nMeter Reading Data (Move-In)\n\n[PATH]\nMeter Reading Data During Move In > Meter Reading Data (Move-In)\n\n[SECTION]\nMeter Reading Data (Move-I..."
+    },
+    {
+      "query": "What is the billing procedure in SAP Utilities?",
+      "top_document": "Budget Billing Plan Procedure",
+      "top_section_id": 2154,
+      "top_chunk_id": 7644,
+      "score": 0.756,
+      "latency_ms": 696.08,
+      "expected_sources": [
+        11,
+        16
+      ],
+      "retrieved_top_source": 11,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nBudget Billing Plan Procedure\n\n[PATH]\nSAP Utilities Billing Procedure > Billing Procedure > Invoicing > Budget Billing Plan Procedure > Use..."
+    },
+    {
+      "query": "How is the invoicing procedure executed?",
+      "top_document": "Invoicing Procedure",
+      "top_section_id": 1697,
+      "top_chunk_id": 10577,
+      "score": 0.6747,
+      "latency_ms": 809.95,
+      "expected_sources": [
+        14,
+        16
+      ],
+      "retrieved_top_source": 14,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nInvoicing Procedure\n\n[PATH]\nSAP Utilities Invoicing Procedure > Invoicing Procedure > Invoicing\n\n[SECTION]\nInvoicing\n\n[CONTENT]\nVersion:202..."
+    },
+    {
+      "query": "How to process budget billing plans?",
+      "top_document": "Processing Budget Billing Plans",
+      "top_section_id": 6097,
+      "top_chunk_id": 7454,
+      "score": 0.7776,
+      "latency_ms": 692.1,
+      "expected_sources": [
+        13,
+        15
+      ],
+      "retrieved_top_source": 11,
+      "source_match": false,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nProcessing Budget Billing Plans\n\n[PATH]\nSAP Utilities Billing Procedure > Billing Procedure > Invoicing > Invoicing Processing > Invoicing ..."
+    },
+    {
+      "query": "What is a contract account business object?",
+      "top_document": "Contract Account",
+      "top_section_id": 2876,
+      "top_chunk_id": 11485,
+      "score": 0.643,
+      "latency_ms": 797.25,
+      "expected_sources": [
+        17,
+        18
+      ],
+      "retrieved_top_source": 18,
+      "source_match": true,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nContract Account\n\n[PATH]\nContract Account Business Object > Contract Account > Business Context and Use\ue088\n\n[SECTION]\nBusiness Context and Us..."
+    },
+    {
+      "query": "How to process incoming payments from a collection agency?",
+      "top_document": "Submission of Receivables to Collection Agency",
+      "top_section_id": 3023,
+      "top_chunk_id": 12178,
+      "score": 0.5683,
+      "latency_ms": 931.1,
+      "expected_sources": [
+        22,
+        28
+      ],
+      "retrieved_top_source": 27,
+      "source_match": false,
+      "retrieval_method": "hybrid_reranked",
+      "snippet": "[DOCUMENT]\nSubmission of Receivables to Collection Agency\n\n[PATH]\nSubmission of Receivables to Collection Agency > Purpose\ue088\n\n[SECTION]\nPurpose\ue088\n\n[CONT..."
+    }
+  ]
+}

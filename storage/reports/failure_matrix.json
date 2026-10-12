@@ -1,0 +1,739 @@
+[
+  {
+    "id": 1,
+    "question": "How do I create an installment plan?",
+    "expected_sources": [
+      23,
+      24,
+      25
+    ],
+    "dense_rank": null,
+    "lexical_rank": 1,
+    "hybrid_rank": 41,
+    "metadata_rank": 41,
+    "reranker_rank": 8,
+    "final_rank": 2,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 2,
+    "question": "How does clearing control work for incoming payments?",
+    "expected_sources": [
+      19,
+      20,
+      21
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 3,
+    "question": "What is the process for automatic billing?",
+    "expected_sources": [
+      11,
+      12
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 4,
+    "question": "How are meter readings estimated?",
+    "expected_sources": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 2,
+    "hybrid_rank": 2,
+    "metadata_rank": 2,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 5,
+    "question": "What happens during move-in?",
+    "expected_sources": [
+      2,
+      3,
+      10
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 6,
+    "question": "What happens during move-out?",
+    "expected_sources": [
+      2,
+      4
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 7,
+    "question": "How does FI-CA dunning work?",
+    "expected_sources": [
+      26
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 4,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 8,
+    "question": "How are incoming payments processed?",
+    "expected_sources": [
+      19,
+      22
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 9,
+    "question": "What are clearing types in SAP Utilities?",
+    "expected_sources": [
+      20,
+      21
+    ],
+    "dense_rank": null,
+    "lexical_rank": 8,
+    "hybrid_rank": 48,
+    "metadata_rank": 41,
+    "reranker_rank": 4,
+    "final_rank": 2,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 10,
+    "question": "How does budget billing work?",
+    "expected_sources": [
+      13,
+      15
+    ],
+    "dense_rank": null,
+    "lexical_rank": 8,
+    "hybrid_rank": 48,
+    "metadata_rank": null,
+    "reranker_rank": null,
+    "final_rank": null,
+    "failure_stage": "HYBRID_FUSION_PENALTY"
+  },
+  {
+    "id": 11,
+    "question": "What master data is required for SAP Utilities?",
+    "expected_sources": [
+      1,
+      17,
+      18
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 3,
+    "reranker_rank": 3,
+    "final_rank": 2,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 12,
+    "question": "How is device management configured for meters?",
+    "expected_sources": [
+      5
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 13,
+    "question": "How to monitor meter reading results?",
+    "expected_sources": [
+      7
+    ],
+    "dense_rank": 3,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 2,
+    "final_rank": 2,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 14,
+    "question": "What are the details of the estimation procedure?",
+    "expected_sources": [
+      8,
+      9
+    ],
+    "dense_rank": null,
+    "lexical_rank": 1,
+    "hybrid_rank": 41,
+    "metadata_rank": 41,
+    "reranker_rank": null,
+    "final_rank": null,
+    "failure_stage": "HYBRID_FUSION_PENALTY"
+  },
+  {
+    "id": 15,
+    "question": "How is meter reading data processed during move-in?",
+    "expected_sources": [
+      3,
+      10
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 16,
+    "question": "What is the billing procedure in SAP Utilities?",
+    "expected_sources": [
+      11,
+      16
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 17,
+    "question": "How is the invoicing procedure executed?",
+    "expected_sources": [
+      14,
+      16
+    ],
+    "dense_rank": 2,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 18,
+    "question": "How to process budget billing plans?",
+    "expected_sources": [
+      13,
+      15
+    ],
+    "dense_rank": 4,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 2,
+    "final_rank": 3,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 19,
+    "question": "What is a contract account business object?",
+    "expected_sources": [
+      17,
+      18
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 20,
+    "question": "How to process incoming payments from a collection agency?",
+    "expected_sources": [
+      22,
+      28
+    ],
+    "dense_rank": 3,
+    "lexical_rank": 5,
+    "hybrid_rank": 3,
+    "metadata_rank": 5,
+    "reranker_rank": 4,
+    "final_rank": 3,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 21,
+    "question": "What is the installment plan overview?",
+    "expected_sources": [
+      23
+    ],
+    "dense_rank": 2,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 2,
+    "final_rank": 2,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 22,
+    "question": "How to display and change installment plans?",
+    "expected_sources": [
+      25
+    ],
+    "dense_rank": null,
+    "lexical_rank": 2,
+    "hybrid_rank": 42,
+    "metadata_rank": 42,
+    "reranker_rank": 2,
+    "final_rank": 8,
+    "failure_stage": "SUB_TOP_5"
+  },
+  {
+    "id": 23,
+    "question": "How to submit receivables to a collection agency?",
+    "expected_sources": [
+      27,
+      28
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 24,
+    "question": "What APIs exist for collection agency enterprise services?",
+    "expected_sources": [
+      28
+    ],
+    "dense_rank": 1,
+    "lexical_rank": null,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 25,
+    "question": "How does disconnection and reconnection of a utility installation work?",
+    "expected_sources": [
+      29
+    ],
+    "dense_rank": null,
+    "lexical_rank": 4,
+    "hybrid_rank": 44,
+    "metadata_rank": 44,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 26,
+    "question": "What is a business partner contract account relationship?",
+    "expected_sources": [
+      1,
+      17,
+      18
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 27,
+    "question": "How are dunning notices generated in FI-CA?",
+    "expected_sources": [
+      26
+    ],
+    "dense_rank": null,
+    "lexical_rank": 1,
+    "hybrid_rank": 41,
+    "metadata_rank": 41,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 28,
+    "question": "How to handle move-in and move-out concurrently?",
+    "expected_sources": [
+      2,
+      3,
+      4
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 3,
+    "final_rank": 4,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 29,
+    "question": "What is periodic billing and invoicing analysis?",
+    "expected_sources": [
+      16
+    ],
+    "dense_rank": null,
+    "lexical_rank": 1,
+    "hybrid_rank": 41,
+    "metadata_rank": 41,
+    "reranker_rank": null,
+    "final_rank": null,
+    "failure_stage": "HYBRID_FUSION_PENALTY"
+  },
+  {
+    "id": 30,
+    "question": "How does automatic rate determination work in billing?",
+    "expected_sources": [
+      11,
+      12
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 31,
+    "question": "What is a budget billing scheme?",
+    "expected_sources": [
+      13
+    ],
+    "dense_rank": 2,
+    "lexical_rank": 2,
+    "hybrid_rank": 2,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 32,
+    "question": "How are register groups assigned in device management?",
+    "expected_sources": [
+      5
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 22,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 33,
+    "question": "How to handle manual meter reading entry?",
+    "expected_sources": [
+      6,
+      7
+    ],
+    "dense_rank": 5,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 2,
+    "final_rank": 3,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 34,
+    "question": "What is clearing proposal in payment processing?",
+    "expected_sources": [
+      19,
+      20
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 35,
+    "question": "How to reverse an invoicing document?",
+    "expected_sources": [
+      14
+    ],
+    "dense_rank": 2,
+    "lexical_rank": 3,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 2,
+    "final_rank": 2,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 36,
+    "question": "What is dunning activity code?",
+    "expected_sources": [
+      26
+    ],
+    "dense_rank": null,
+    "lexical_rank": 1,
+    "hybrid_rank": 41,
+    "metadata_rank": 41,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 37,
+    "question": "How to cancel an installment plan?",
+    "expected_sources": [
+      23,
+      25
+    ],
+    "dense_rank": 3,
+    "lexical_rank": null,
+    "hybrid_rank": 3,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 38,
+    "question": "What is collection agency file transfer format?",
+    "expected_sources": [
+      27,
+      28
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 39,
+    "question": "How to process disconnection order?",
+    "expected_sources": [
+      29
+    ],
+    "dense_rank": 13,
+    "lexical_rank": 7,
+    "hybrid_rank": 11,
+    "metadata_rank": 13,
+    "reranker_rank": 12,
+    "final_rank": 5,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 40,
+    "question": "What is connection object in master data?",
+    "expected_sources": [
+      1
+    ],
+    "dense_rank": 2,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 2,
+    "final_rank": 2,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 41,
+    "question": "What is premise in SAP Utilities?",
+    "expected_sources": [
+      1
+    ],
+    "dense_rank": 2,
+    "lexical_rank": null,
+    "hybrid_rank": 11,
+    "metadata_rank": 10,
+    "reranker_rank": 2,
+    "final_rank": 2,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 42,
+    "question": "What is point of delivery POD?",
+    "expected_sources": [
+      1
+    ],
+    "dense_rank": null,
+    "lexical_rank": 1,
+    "hybrid_rank": 41,
+    "metadata_rank": 41,
+    "reranker_rank": null,
+    "final_rank": null,
+    "failure_stage": "HYBRID_FUSION_PENALTY"
+  },
+  {
+    "id": 43,
+    "question": "How to create a budget billing plan manually?",
+    "expected_sources": [
+      13,
+      15
+    ],
+    "dense_rank": 33,
+    "lexical_rank": 14,
+    "hybrid_rank": 14,
+    "metadata_rank": 4,
+    "reranker_rank": 17,
+    "final_rank": null,
+    "failure_stage": "RERANKER_DEMOTION"
+  },
+  {
+    "id": 44,
+    "question": "What is out-of-sorting billing document check?",
+    "expected_sources": [
+      11,
+      16
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 45,
+    "question": "How to process payment lot in FI-CA?",
+    "expected_sources": [
+      19,
+      22
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 9,
+    "reranker_rank": 11,
+    "final_rank": 4,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 46,
+    "question": "How to handle meter exchange procedure?",
+    "expected_sources": [
+      5
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 2,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 47,
+    "question": "What is plausible and implausible meter reading result?",
+    "expected_sources": [
+      7,
+      8
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 2,
+    "hybrid_rank": 2,
+    "metadata_rank": 2,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 48,
+    "question": "How does dunning proposal run work?",
+    "expected_sources": [
+      26
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 49,
+    "question": "How to release submission to collection agency?",
+    "expected_sources": [
+      27
+    ],
+    "dense_rank": 1,
+    "lexical_rank": 1,
+    "hybrid_rank": 1,
+    "metadata_rank": 1,
+    "reranker_rank": 1,
+    "final_rank": 1,
+    "failure_stage": "SUCCESS"
+  },
+  {
+    "id": 50,
+    "question": "How to perform reconnection of utility service?",
+    "expected_sources": [
+      29
+    ],
+    "dense_rank": null,
+    "lexical_rank": null,
+    "hybrid_rank": null,
+    "metadata_rank": null,
+    "reranker_rank": null,
+    "final_rank": null,
+    "failure_stage": "INITIAL_RETRIEVAL_MISS"
+  }
+]

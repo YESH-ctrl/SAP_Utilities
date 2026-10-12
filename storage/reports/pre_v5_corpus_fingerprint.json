@@ -1,0 +1,10 @@
+{
+  "source_count": 29,
+  "document_count": 965,
+  "chunk_count": 6689,
+  "embedding_count": 6689,
+  "embedding_dimension": 1024,
+  "chunking_version": "semantic-v1",
+  "corpus_sha256": "f4f0bdc4e5a9a6b79a040de22ca91fcfe9a92c2b93a79faeaeb5dba40487caf6",
+  "status": "FROZEN_PRE_V5_SNAPSHOT"
+}

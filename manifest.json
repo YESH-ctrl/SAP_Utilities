@@ -1,0 +1,415 @@
+{
+  "manifest_version": "1.0",
+  "generated_from": "SAP Utilities reference PDFs",
+  "domain": "SAP Utilities",
+  "base_domain": "help.sap.com",
+  "description": "Seed URLs extracted from SAP Utilities reference PDFs for controlled RAG ingestion.",
+  "documents": [
+    {
+      "id": "sap_utilities_001",
+      "order": 1,
+      "title": "Utilities Master Data",
+      "source_file": "01_Utilities_Master_Data.pdf",
+      "category": "Utilities Master Data",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/0a6ace53118d4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_002",
+      "order": 2,
+      "title": "Move In Out Overview",
+      "source_file": "02_Move_In_Out_Overview.pdf",
+      "category": "Move-In / Move-Out",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/8082ce53118d4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_003",
+      "order": 3,
+      "title": "Move In Process",
+      "source_file": "03_Move_In_Process.pdf",
+      "category": "Move-In / Move-Out",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/0981ce53118d4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_004",
+      "order": 4,
+      "title": "Move Out Process",
+      "source_file": "04_Move_Out_Process.pdf",
+      "category": "Move-In / Move-Out",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/0f81ce53118d4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_005",
+      "order": 5,
+      "title": "Device Management Overview",
+      "source_file": "05_Device_Management_Overview.pdf",
+      "category": "Device Management",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/8990d0533f8e4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_006",
+      "order": 6,
+      "title": "Reading Meters",
+      "source_file": "06_Reading_Meters.pdf",
+      "category": "Meter Reading",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/bc90d0533f8e4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_007",
+      "order": 7,
+      "title": "Monitoring Meter Reading Results",
+      "source_file": "07_Monitoring_Meter_Reading_Results.pdf",
+      "category": "Meter Reading",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/4d76765c1e012b8ae10000000a42189b.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_008",
+      "order": 8,
+      "title": "Meter Reading Estimation",
+      "source_file": "08_Meter_Reading_Estimation.pdf",
+      "category": "Meter Reading",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/d090d0533f8e4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_009",
+      "order": 9,
+      "title": "Estimation Procedure Details",
+      "source_file": "09_Estimation_Procedure_Details.pdf",
+      "category": "Meter Reading",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758/bf74c1d28fd54f77b228772b98b72fba.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_010",
+      "order": 10,
+      "title": "Meter Reading Data During Move In",
+      "source_file": "10_Meter_Reading_Data_During_Move_In.pdf",
+      "category": "Meter Reading",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/b781ce53118d4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_011",
+      "order": 11,
+      "title": "SAP Utilities Billing Procedure",
+      "source_file": "11_SAP_Utilities_Billing_Procedure.pdf",
+      "category": "Billing & Invoicing",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/147bce53118d4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_012",
+      "order": 12,
+      "title": "Automatic Billing",
+      "source_file": "12_Automatic_Billing.pdf",
+      "category": "Billing & Invoicing",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b/297bce53118d4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_013",
+      "order": 13,
+      "title": "Budget Billing Plan",
+      "source_file": "13_Budget_Billing_Plan.pdf",
+      "category": "Billing & Invoicing",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/c1a5e8aee73440ee971a768af5b9ea1b.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_014",
+      "order": 14,
+      "title": "SAP Utilities Invoicing Procedure",
+      "source_file": "14_SAP_Utilities_Invoicing_Procedure.pdf",
+      "category": "Billing & Invoicing",
+      "url": "https://help.sap.com/docs/sap_s4hana_on-premise/a003b275c98148ee8a4c3fafe9588fe3/cc7bce53118d4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_015",
+      "order": 15,
+      "title": "Processing Budget Billing Plans",
+      "source_file": "15_Processing_Budget_Billing_Plans.pdf",
+      "category": "Billing & Invoicing",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/a003b275c98148ee8a4c3fafe9588fe3/147cce53118d4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_016",
+      "order": 16,
+      "title": "Periodic Billing and Invoicing Analysis",
+      "source_file": "16_Periodic_Billing_and_Invoicing_Analysis.pdf",
+      "category": "Billing & Invoicing",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed67ebfd78a9/549661e6541f403ea56196782e040bcc.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_017",
+      "order": 17,
+      "title": "Contract Accounts Overview",
+      "source_file": "17_Contract_Accounts_Overview.pdf",
+      "category": "Contract Accounts & FI-CA",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad/0bfcc5536a51204be10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_018",
+      "order": 18,
+      "title": "Contract Account Business Object",
+      "source_file": "18_Contract_Account_Business_Object.pdf",
+      "category": "Contract Accounts & FI-CA",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/b1a202c9bb3011da2b24000f20dac9ef.html?version=2025.001",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_019",
+      "order": 19,
+      "title": "Analyze Incoming Payments",
+      "source_file": "19_Analyze_Incoming_Payments.pdf",
+      "category": "Incoming Payments & Clearing",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/063bf3eb68e347efa5c0fc1d389f70f7.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_020",
+      "order": 20,
+      "title": "Clearing Control in Incoming Payments",
+      "source_file": "20_Clearing_Control_in_Incoming_Payments.pdf",
+      "category": "Incoming Payments & Clearing",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/edcd0c5823854d3296f2591e9f5d118c.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_021",
+      "order": 21,
+      "title": "Clearing Types",
+      "source_file": "21_Clearing_Types.pdf",
+      "category": "Incoming Payments & Clearing",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/e63529e1a3fd42e3a0e2c009ac783e0d.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_022",
+      "order": 22,
+      "title": "Processing Incoming Payments from External Cash Desks",
+      "source_file": "22_Processing_Incoming_Payments_from_External_Cash_Desks.pdf",
+      "category": "Incoming Payments & Clearing",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/3d0ac5536a51204be10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_023",
+      "order": 23,
+      "title": "Installment Plan Overview",
+      "source_file": "23_Installment_Plan_Overview.pdf",
+      "category": "Installment Plans",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/730dc5536a51204be10000000a174cb4.html?version=2025.001",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_024",
+      "order": 24,
+      "title": "Creating Installment Plans",
+      "source_file": "24_Creating_Installment_Plans.pdf",
+      "category": "Installment Plans",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/790dc5536a51204be10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_025",
+      "order": 25,
+      "title": "Displaying and Changing Installment Plans",
+      "source_file": "25_Displaying_and_Changing_Installment_Plans.pdf",
+      "category": "Installment Plans",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/630dc5536a51204be10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_026",
+      "order": 26,
+      "title": "FI CA Dunning",
+      "source_file": "26_FI_CA_Dunning.pdf",
+      "category": "Dunning & Collections",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/b1ffc5536a51204be10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_027",
+      "order": 27,
+      "title": "Submission of Receivables to Collection Agency",
+      "source_file": "27_Submission_of_Receivables_to_Collection_Agency.pdf",
+      "category": "Dunning & Collections",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/10e7c5536a51204be10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_028",
+      "order": 28,
+      "title": "Collection Agency APIs and Enterprise Services",
+      "source_file": "28_Collection_Agency_APIs_and_Enterprise_Services.pdf",
+      "category": "Dunning & Collections",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7/9c9c2344851f412f823d5f8a9dc7c694.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    },
+    {
+      "id": "sap_utilities_029",
+      "order": 29,
+      "title": "Disconnection Reconnection of a Utility Installation",
+      "source_file": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+      "category": "Disconnection / Reconnection",
+      "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fb1fd/8682ce53118d4308e10000000a174cb4.html",
+      "source_type": "SAP Help Portal",
+      "product": "SAP S/4HANA On-Premise",
+      "crawl": {
+        "enabled": true,
+        "max_depth": 2
+      }
+    }
+  ]
+}

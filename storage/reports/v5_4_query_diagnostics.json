@@ -1,0 +1,739 @@
+[
+  {
+    "query_id": "1",
+    "query": "How do I create an installment plan?",
+    "expected_sources": [
+      24,
+      25,
+      23
+    ],
+    "dense_contains_gt": false,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "2",
+    "query": "How does clearing control work for incoming payments?",
+    "expected_sources": [
+      19,
+      20,
+      21
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "3",
+    "query": "What is the process for automatic billing?",
+    "expected_sources": [
+      11,
+      12
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0811,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "4",
+    "query": "How are meter readings estimated?",
+    "expected_sources": [
+      8,
+      9,
+      6,
+      7
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.1429,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "5",
+    "query": "What happens during move-in?",
+    "expected_sources": [
+      10,
+      2,
+      3
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0417,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "6",
+    "query": "What happens during move-out?",
+    "expected_sources": [
+      2,
+      4
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0217,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "7",
+    "query": "How does FI-CA dunning work?",
+    "expected_sources": [
+      26
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.2121,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "8",
+    "query": "How are incoming payments processed?",
+    "expected_sources": [
+      19,
+      22
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.1765,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "9",
+    "query": "What are clearing types in SAP Utilities?",
+    "expected_sources": [
+      20,
+      21
+    ],
+    "dense_contains_gt": false,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": false,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "RANKING_MISS"
+  },
+  {
+    "query_id": "10",
+    "query": "How does budget billing work?",
+    "expected_sources": [
+      13,
+      15
+    ],
+    "dense_contains_gt": false,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": false,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "RANKING_MISS"
+  },
+  {
+    "query_id": "11",
+    "query": "What master data is required for SAP Utilities?",
+    "expected_sources": [
+      1,
+      18,
+      17
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "12",
+    "query": "How is device management configured for meters?",
+    "expected_sources": [
+      5
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "13",
+    "query": "How to monitor meter reading results?",
+    "expected_sources": [
+      7
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.1765,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "14",
+    "query": "What are the details of the estimation procedure?",
+    "expected_sources": [
+      8,
+      9
+    ],
+    "dense_contains_gt": false,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "15",
+    "query": "How is meter reading data processed during move-in?",
+    "expected_sources": [
+      10,
+      3
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0256,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "16",
+    "query": "What is the billing procedure in SAP Utilities?",
+    "expected_sources": [
+      16,
+      11
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0256,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "17",
+    "query": "How is the invoicing procedure executed?",
+    "expected_sources": [
+      16,
+      14
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.039,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "18",
+    "query": "How to process budget billing plans?",
+    "expected_sources": [
+      13,
+      15
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0811,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "19",
+    "query": "What is a contract account business object?",
+    "expected_sources": [
+      17,
+      18
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.1594,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "20",
+    "query": "How to process incoming payments from a collection agency?",
+    "expected_sources": [
+      28,
+      22
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "21",
+    "query": "What is the installment plan overview?",
+    "expected_sources": [
+      23
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.1429,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "22",
+    "query": "How to display and change installment plans?",
+    "expected_sources": [
+      25
+    ],
+    "dense_contains_gt": false,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "23",
+    "query": "How to submit receivables to a collection agency?",
+    "expected_sources": [
+      27,
+      28
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0959,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "24",
+    "query": "What APIs exist for collection agency enterprise services?",
+    "expected_sources": [
+      28
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": false,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.025,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "25",
+    "query": "How does disconnection and reconnection of a utility installation work?",
+    "expected_sources": [
+      29
+    ],
+    "dense_contains_gt": false,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "26",
+    "query": "What is a business partner contract account relationship?",
+    "expected_sources": [
+      1,
+      18,
+      17
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0811,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "27",
+    "query": "How are dunning notices generated in FI-CA?",
+    "expected_sources": [
+      26
+    ],
+    "dense_contains_gt": false,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "28",
+    "query": "How to handle move-in and move-out concurrently?",
+    "expected_sources": [
+      2,
+      3,
+      4
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": false,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "29",
+    "query": "What is periodic billing and invoicing analysis?",
+    "expected_sources": [
+      16
+    ],
+    "dense_contains_gt": false,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "30",
+    "query": "How does automatic rate determination work in billing?",
+    "expected_sources": [
+      11,
+      12
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "31",
+    "query": "What is a budget billing scheme?",
+    "expected_sources": [
+      13
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0667,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "32",
+    "query": "How are register groups assigned in device management?",
+    "expected_sources": [
+      5
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.1111,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "33",
+    "query": "How to handle manual meter reading entry?",
+    "expected_sources": [
+      6,
+      7
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0667,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "34",
+    "query": "What is clearing proposal in payment processing?",
+    "expected_sources": [
+      19,
+      20
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.3333,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "35",
+    "query": "How to reverse an invoicing document?",
+    "expected_sources": [
+      14
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.3559,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "36",
+    "query": "What is dunning activity code?",
+    "expected_sources": [
+      26
+    ],
+    "dense_contains_gt": false,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "37",
+    "query": "How to cancel an installment plan?",
+    "expected_sources": [
+      25,
+      23
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": false,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "38",
+    "query": "What is collection agency file transfer format?",
+    "expected_sources": [
+      27,
+      28
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "39",
+    "query": "How to process disconnection order?",
+    "expected_sources": [
+      29
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.2308,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "40",
+    "query": "What is connection object in master data?",
+    "expected_sources": [
+      1
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.2698,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "41",
+    "query": "What is premise in SAP Utilities?",
+    "expected_sources": [
+      1
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": false,
+    "top10_contains_gt": false,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.1429,
+    "classification": "RANKING_MISS"
+  },
+  {
+    "query_id": "42",
+    "query": "What is point of delivery POD?",
+    "expected_sources": [
+      1
+    ],
+    "dense_contains_gt": false,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.1429,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "43",
+    "query": "How to create a budget billing plan manually?",
+    "expected_sources": [
+      13,
+      15
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": false,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.1765,
+    "classification": "RANKING_MISS"
+  },
+  {
+    "query_id": "44",
+    "query": "What is out-of-sorting billing document check?",
+    "expected_sources": [
+      16,
+      11
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "45",
+    "query": "How to process payment lot in FI-CA?",
+    "expected_sources": [
+      19,
+      22
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "46",
+    "query": "How to handle meter exchange procedure?",
+    "expected_sources": [
+      5
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "47",
+    "query": "What is plausible and implausible meter reading result?",
+    "expected_sources": [
+      8,
+      7
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.0526,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "48",
+    "query": "How does dunning proposal run work?",
+    "expected_sources": [
+      26
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.5094,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "49",
+    "query": "How to release submission to collection agency?",
+    "expected_sources": [
+      27
+    ],
+    "dense_contains_gt": true,
+    "lexical_contains_gt": true,
+    "top10_contains_gt": true,
+    "pool40_contains_gt": true,
+    "pool100_contains_gt": true,
+    "overlap_ratio": 0.3333,
+    "classification": "NONE"
+  },
+  {
+    "query_id": "50",
+    "query": "How to perform reconnection of utility service?",
+    "expected_sources": [
+      29
+    ],
+    "dense_contains_gt": false,
+    "lexical_contains_gt": false,
+    "top10_contains_gt": false,
+    "pool40_contains_gt": false,
+    "pool100_contains_gt": false,
+    "overlap_ratio": 0.0,
+    "classification": "TRUE_CANDIDATE_MISS"
+  }
+]

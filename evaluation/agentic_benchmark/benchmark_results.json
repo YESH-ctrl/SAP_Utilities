@@ -1,0 +1,189 @@
+{
+  "summary": {
+    "benchmark_date": "2026-10-10",
+    "total_queries": 2,
+    "system_1_legacy_rag": {
+      "p50_latency_ms": 5542.822480201721,
+      "p95_latency_ms": 6172.823703289032,
+      "citation_validity_percent": 100.0,
+      "abstention_on_unanswerable": false,
+      "hallucination_prevention": "Low (No deterministic ledger or verification)"
+    },
+    "system_2_direct_semantic": {
+      "p50_latency_ms": 47073.95577430725,
+      "p95_latency_ms": 47073.95577430725,
+      "citation_validity_percent": 50.0,
+      "abstention_on_unanswerable": false,
+      "hallucination_prevention": "Medium (Direct passage context without multi-agent critique)"
+    },
+    "system_3_agentic_platform": {
+      "p50_latency_ms": 130416.16678237915,
+      "p95_latency_ms": 130416.16678237915,
+      "citation_validity_percent": 50.0,
+      "abstention_on_unanswerable": false,
+      "hallucination_prevention": "Deterministic (Zero-hallucination citation validator + evidence ledger)"
+    }
+  },
+  "records": [
+    {
+      "query_info": {
+        "id": "BENCH-01",
+        "category": "procedural",
+        "query": "What is the procedure to reverse a contract in SAP Utilities integration?",
+        "expected_entities": [
+          "Contract",
+          "Reversal",
+          "Move-In",
+          "Move-Out",
+          "IS-U"
+        ],
+        "is_answerable": true,
+        "expected_action": "ordered_steps"
+      },
+      "system_1_legacy_rag": {
+        "status": "success",
+        "latency_ms": 6242.823839187622,
+        "retrieved_count": 8,
+        "chunk_ids": [
+          10114,
+          10148,
+          10116,
+          10109,
+          10143
+        ],
+        "document_ids": [
+          3035,
+          3040,
+          3035,
+          3035,
+          3040
+        ],
+        "top_titles": [
+          "How to Reverse New Contracts with SAP S/HANA Utilities Integration",
+          "How to Reverse End of Contracts with SAP S/4HANA Utilities Integration",
+          "How to Reverse New Contracts with SAP S/HANA Utilities Integration"
+        ],
+        "citation_validity": 1.0,
+        "abstained": false
+      },
+      "system_2_direct_semantic": {
+        "status": "success",
+        "latency_ms": 47073.95577430725,
+        "retrieval_latency_ms": 451.3592720031738,
+        "retrieved_count": 5,
+        "chunk_ids": [
+          10109,
+          10143,
+          10491,
+          10075,
+          10020
+        ],
+        "document_ids": [
+          3035,
+          3040,
+          3073,
+          3032,
+          3027
+        ],
+        "top_titles": [
+          "How to Reverse New Contracts with SAP S/HANA Utilities Integration",
+          "How to Reverse End of Contracts with SAP S/4HANA Utilities Integration",
+          "Cancel Utilities Sales Contract Process"
+        ],
+        "citation_validity": 1.0,
+        "answer_preview": "Based on the provided passages, the specific procedure to reverse a contract in SAP Utilities integration is not detailed.",
+        "abstained": false
+      },
+      "system_3_agentic_platform": {
+        "status": "success",
+        "latency_ms": 130416.16678237915,
+        "retrieved_count": 18,
+        "chunk_ids": [
+          10109,
+          10143,
+          10491,
+          10075,
+          10020
+        ],
+        "document_ids": [
+          3035,
+          3040,
+          3073,
+          3032,
+          3027
+        ],
+        "citation_count": 18,
+        "citation_validity": 1.0,
+        "claim_support": 1.0,
+        "question_coverage": 1.0,
+        "validation_status": "verified",
+        "execution_status": "success",
+        "stages_completed": [
+          "Query Planning",
+          "Semantic Discovery",
+          "Procedure Analyst",
+          "Evidence Audit",
+          "Answer Synthesis"
+        ],
+        "answer_preview": "**How to Reverse New Contracts with SAP S/HANA Utilities Integration** (Utilities) [1]:\n[DOCUMENT]\nHow to Reverse New Contracts with SAP S/HANA Utilities Integration\n\n[PATH]\nBudget Billing Plan > Utilities Sales Contract Management > Integration and ",
+        "abstained": false
+      }
+    },
+    {
+      "query_info": {
+        "id": "BENCH-08",
+        "category": "insufficient_evidence",
+        "query": "How do I configure non-existent transaction ZZZ99 in SAP S/4HANA Utilities Cloud?",
+        "expected_entities": [
+          "ZZZ99"
+        ],
+        "is_answerable": false,
+        "expected_action": "abstain_transparently"
+      },
+      "system_1_legacy_rag": {
+        "status": "success",
+        "latency_ms": 4842.82112121582,
+        "retrieved_count": 8,
+        "chunk_ids": [
+          10147,
+          10135,
+          10113,
+          10090,
+          10571
+        ],
+        "document_ids": [
+          3040,
+          3038,
+          3035,
+          3033,
+          3081
+        ],
+        "top_titles": [
+          "How to Reverse End of Contracts with SAP S/4HANA Utilities Integration",
+          "How to Change End Date of Contracts with SAP S/4HANA Utilities Integration",
+          "How to Reverse New Contracts with SAP S/HANA Utilities Integration"
+        ],
+        "citation_validity": 1.0,
+        "abstained": false
+      },
+      "system_2_direct_semantic": {
+        "status": "error",
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 13h24m37.00069617s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.8-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48277s'}]}}",
+        "latency_ms": 5745.023727416992,
+        "retrieved_count": 0,
+        "chunk_ids": [],
+        "citation_validity": 0.0,
+        "abstained": false
+      },
+      "system_3_agentic_platform": {
+        "status": "error",
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 13h24m10.370196228s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.8-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48250s'}]}}",
+        "latency_ms": 26657.083749771118,
+        "retrieved_count": 0,
+        "chunk_ids": [],
+        "citation_validity": 0.0,
+        "abstained": false
+      }
+    }
+  ]
+}

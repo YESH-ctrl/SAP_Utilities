@@ -1,0 +1,675 @@
+{
+  "mode_metrics": {
+    "dense_only": {
+      "mrr": 0.6105,
+      "recall@5": 0.7,
+      "precision@5": 0.524,
+      "recall@10": 0.74,
+      "precision@10": 0.482,
+      "recall@20": 0.76,
+      "precision@20": 0.459,
+      "avg_latency_ms": 0.17
+    },
+    "lexical_only": {
+      "mrr": 0.7179,
+      "recall@5": 0.7933,
+      "precision@5": 0.604,
+      "recall@10": 0.84,
+      "precision@10": 0.5611,
+      "recall@20": 0.87,
+      "precision@20": 0.4931,
+      "avg_latency_ms": 0.14
+    },
+    "current_hybrid_minmax": {
+      "mrr": 0.6793,
+      "recall@5": 0.725,
+      "precision@5": 0.536,
+      "recall@10": 0.8,
+      "precision@10": 0.5,
+      "recall@20": 0.9,
+      "precision@20": 0.477,
+      "avg_latency_ms": 0.15
+    },
+    "RRF_hybrid": {
+      "mrr": 0.7176,
+      "recall@5": 0.7883,
+      "precision@5": 0.608,
+      "recall@10": 0.88,
+      "precision@10": 0.554,
+      "recall@20": 0.94,
+      "precision@20": 0.504,
+      "avg_latency_ms": 0.16
+    },
+    "optimized_hybrid": {
+      "mrr": 0.774,
+      "recall@5": 0.8183,
+      "precision@5": 0.624,
+      "recall@10": 0.885,
+      "precision@10": 0.57,
+      "recall@20": 0.91,
+      "precision@20": 0.491,
+      "avg_latency_ms": 0.15
+    },
+    "optimized_hybrid_rerank": {
+      "mrr": 0.7257,
+      "recall@5": 0.795,
+      "precision@5": 0.604,
+      "recall@10": 0.88,
+      "precision@10": 0.614,
+      "recall@20": 0.88,
+      "precision@20": 0.614,
+      "avg_latency_ms": 20.7
+    },
+    "optimized_full_pipeline": {
+      "mrr": 0.7289,
+      "recall@5": 0.8333,
+      "precision@5": 0.624,
+      "recall@10": 0.875,
+      "precision@10": 0.6275,
+      "recall@20": 0.875,
+      "precision@20": 0.6275,
+      "avg_latency_ms": 1103.05
+    }
+  },
+  "failure_cases": [
+    {
+      "query": "How do I create an installment plan?",
+      "expected_sources": [
+        23,
+        24,
+        25
+      ],
+      "top_retrieved_sources": [
+        24,
+        24,
+        24,
+        23,
+        24
+      ],
+      "top_documents": [
+        "Create Installment Plans Asynchronously from SD Data",
+        "Create Installment Plans Asynchronously from SD Data",
+        "Create Installment Plans Asynchronously from SD Data",
+        "Create Installment Plans Asynchronously from SD Data",
+        "Create Installment Plans Asynchronously from SD Data"
+      ],
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scores": [
+        0.9028,
+        0.9003,
+        0.8997,
+        0.8607,
+        0.8998
+      ],
+      "latency_ms": 792.91,
+      "matched": true
+    },
+    {
+      "query": "What are clearing types in SAP Utilities?",
+      "expected_sources": [
+        20,
+        21
+      ],
+      "top_retrieved_sources": [
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      "top_documents": [
+        "Clearing Variant",
+        "Clearing Variant",
+        "Clearing Type",
+        "Example: Sort String for Clearing for Each Company Code Sorted by Due Date",
+        "Clearing Category"
+      ],
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scores": [
+        0.858,
+        0.6864,
+        0.6852,
+        0.6848,
+        0.6858
+      ],
+      "latency_ms": 988.57,
+      "matched": true
+    },
+    {
+      "query": "How does budget billing work?",
+      "expected_sources": [
+        13,
+        15
+      ],
+      "top_retrieved_sources": [
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "top_documents": [
+        "Determination of Budget Billing Amount",
+        "Budget Billing Amounts",
+        "Basics of a Budget Billing Plan",
+        "Determination of Budget Billing Amount",
+        "Activation of the Budget Billing Plan as Advance Payment"
+      ],
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scores": [
+        0.9105,
+        0.8559,
+        0.7282,
+        0.7284,
+        0.9086
+      ],
+      "latency_ms": 570.7,
+      "matched": false
+    },
+    {
+      "query": "What master data is required for SAP Utilities?",
+      "expected_sources": [
+        1,
+        17,
+        18
+      ],
+      "top_retrieved_sources": [
+        16,
+        16,
+        1,
+        1,
+        1
+      ],
+      "top_documents": [
+        "Enterprise Search for Utilities Master Data",
+        "Enterprise Search for Utilities Master Data",
+        "Master Data",
+        "Objects and Enhancements in SAP Utilities",
+        "Changing Payment Data"
+      ],
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scores": [
+        0.7152,
+        0.7122,
+        0.6725,
+        0.6029,
+        0.5864
+      ],
+      "latency_ms": 565.68,
+      "matched": true
+    },
+    {
+      "query": "How to monitor meter reading results?",
+      "expected_sources": [
+        7
+      ],
+      "top_retrieved_sources": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "top_documents": [
+        "Monitoring of Meter Reading Results",
+        "Monitoring of Meter Reading Results",
+        "Monitoring of Meter Reading Results",
+        "Entry of Meter Reading Results",
+        "Entry of Meter Reading Results"
+      ],
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scores": [
+        1.0195,
+        1.019,
+        0.9646,
+        0.9642,
+        0.9638
+      ],
+      "latency_ms": 538.54,
+      "matched": true
+    },
+    {
+      "query": "What are the details of the estimation procedure?",
+      "expected_sources": [
+        8,
+        9
+      ],
+      "top_retrieved_sources": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "top_documents": [
+        "Estimation Procedure",
+        "Estimation Procedure",
+        "Estimation Procedure",
+        "Estimation Procedure",
+        "Estimation Procedure"
+      ],
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scores": [
+        0.4948,
+        0.4946,
+        0.4944,
+        0.4943,
+        0.4941
+      ],
+      "latency_ms": 510.04,
+      "matched": true
+    },
+    {
+      "query": "How to process budget billing plans?",
+      "expected_sources": [
+        13,
+        15
+      ],
+      "top_retrieved_sources": [
+        15,
+        11,
+        15,
+        11,
+        15
+      ],
+      "top_documents": [
+        "Processing Budget Billing Plans",
+        "Processing Budget Billing Plans",
+        "Processing Budget Billing Plans",
+        "Processing Budget Billing Plans",
+        "Budget Billing Request"
+      ],
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scores": [
+        1.0097,
+        1.0007,
+        0.9544,
+        0.9577,
+        0.9453
+      ],
+      "latency_ms": 606.62,
+      "matched": true
+    },
+    {
+      "query": "How to process incoming payments from a collection agency?",
+      "expected_sources": [
+        22,
+        28
+      ],
+      "top_retrieved_sources": [
+        20,
+        20,
+        27,
+        20,
+        27
+      ],
+      "top_documents": [
+        "Clearing Strategies when Assigning Incoming Payments",
+        "Clearing Strategies when Assigning Incoming Payments",
+        "Submission of Receivables to Collection Agency",
+        "Clearing Strategies when Assigning Incoming Payments",
+        "Submission of Receivables to Collection Agency"
+      ],
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scores": [
+        0.9215,
+        0.7372,
+        0.736,
+        0.7372,
+        0.7129
+      ],
+      "latency_ms": 801.01,
+      "matched": false
+    }
+  ],
+  "unseen_queries": [
+    {
+      "query": "How is a business partner linked to a contract account in SAP FI-CA?",
+      "intent": "general",
+      "domain": "contract_accounts",
+      "top_document": "Find Contract Account by Business Partner",
+      "top_source_id": 18,
+      "top_score": 0.9337,
+      "latency_ms": 904.98,
+      "snippet": "[DOCUMENT]\nFind Contract Account by Business Partner\n\n[PATH]\nContract Account Business Object > Contract Account > Query Contract Account In..."
+    },
+    {
+      "query": "What are the mandatory attributes of a connection object in IS-U?",
+      "intent": "general",
+      "domain": "general",
+      "top_document": "Monitoring Disconnection and Reconnection Activities",
+      "top_source_id": 10,
+      "top_score": 0.2758,
+      "latency_ms": 624.69,
+      "snippet": "[DOCUMENT]\nMonitoring Disconnection and Reconnection Activities\n\n[PATH]\nMeter Reading Data During Move In > Meter Reading Data (Move-In) > D..."
+    },
+    {
+      "query": "What steps are involved in processing a commercial move-in?",
+      "intent": "procedure",
+      "domain": "move_in_out",
+      "top_document": "Move-In/Out Processing",
+      "top_source_id": 2,
+      "top_score": 0.7128,
+      "latency_ms": 2452.21,
+      "snippet": "[DOCUMENT]\nMove-In/Out Processing\n\n[PATH]\nMove In Out Overview > Move-In/Out > Move-In/Out Processing > Features\ue088\n\n[SECTION]\nFeatures\ue088\n\n[CON..."
+    },
+    {
+      "query": "How to process a move-out with final meter reading estimation?",
+      "intent": "procedure",
+      "domain": "meter_reading",
+      "top_document": "Meter Reading Data (Move-Out)",
+      "top_source_id": 4,
+      "top_score": 0.9443,
+      "latency_ms": 1410.05,
+      "snippet": "[DOCUMENT]\nMeter Reading Data (Move-Out)\n\n[PATH]\nMove Out Process > Move-Out > Meter Reading Data (Move-Out) > Features\ue088\n\n[SECTION]\nFeatures..."
+    },
+    {
+      "query": "How do I create and assign a register group to a meter?",
+      "intent": "procedure",
+      "domain": "meter_reading",
+      "top_document": "Processing Meter Reading Data in Dynamic Period Control",
+      "top_source_id": 11,
+      "top_score": 0.4213,
+      "latency_ms": 707.15,
+      "snippet": "[DOCUMENT]\nProcessing Meter Reading Data in Dynamic Period Control\n\n[PATH]\nSAP Utilities Billing Procedure > Billing Procedure > Contract Bi..."
+    },
+    {
+      "query": "What is the procedure for periodic meter reading order creation?",
+      "intent": "procedure",
+      "domain": "meter_reading",
+      "top_document": "Meter Reading Order",
+      "top_source_id": 5,
+      "top_score": 0.8869,
+      "latency_ms": 620.48,
+      "snippet": "[DOCUMENT]\nMeter Reading Order\n\n[PATH]\nDevice Management Overview > Device Management > Reading Meters > Meter Reading Order > Device Manage..."
+    },
+    {
+      "query": "How to release implausible meter reading results?",
+      "intent": "procedure",
+      "domain": "meter_reading",
+      "top_document": "Correction of Implausible Meter Reading Results",
+      "top_source_id": 7,
+      "top_score": 1.0215,
+      "latency_ms": 528.49,
+      "snippet": "[DOCUMENT]\nCorrection of Implausible Meter Reading Results\n\n[PATH]\nMonitoring Meter Reading Results > Monitoring of Meter Reading Results > ..."
+    },
+    {
+      "query": "How does rate category determination work during billing?",
+      "intent": "definition",
+      "domain": "billing",
+      "top_document": "Create Billing Rate for Streetlights",
+      "top_source_id": 11,
+      "top_score": 0.7203,
+      "latency_ms": 1354.67,
+      "snippet": "[DOCUMENT]\nCreate Billing Rate for Streetlights\n\n[PATH]\nSAP Utilities Billing Procedure > Billing Procedure > Contract Billing > Billing Mas..."
+    },
+    {
+      "query": "What is out-of-sorting billing document validation?",
+      "intent": "overview",
+      "domain": "billing",
+      "top_document": "Resolve Outsorted Billing Documents (F2186)",
+      "top_source_id": 16,
+      "top_score": 0.7341,
+      "latency_ms": 1046.69,
+      "snippet": "[DOCUMENT]\nResolve Outsorted Billing Documents (F2186)\n\n[PATH]\nPeriodic Billing and Invoicing Analysis > SAP Documentation Topic > Fiori App..."
+    },
+    {
+      "query": "How to reverse an invoicing document and reset clearing?",
+      "intent": "procedure",
+      "domain": "clearing",
+      "top_document": "Clearing Strategies when Assigning Incoming Payments",
+      "top_source_id": 20,
+      "top_score": 0.8559,
+      "latency_ms": 960.34,
+      "snippet": "[DOCUMENT]\nClearing Strategies when Assigning Incoming Payments\n\n[PATH]\nClearing Control in Incoming Payments > Clearing Strategies when Ass..."
+    },
+    {
+      "query": "What is the difference between statistical and debit budget billing procedures?",
+      "intent": "procedure",
+      "domain": "billing",
+      "top_document": "Statistical Budget Billing Procedure and Partial Bill Procedure",
+      "top_source_id": 11,
+      "top_score": 1.0005,
+      "latency_ms": 749.13,
+      "snippet": "[DOCUMENT]\nStatistical Budget Billing Procedure and Partial Bill Procedure\n\n[PATH]\nSAP Utilities Billing Procedure > Billing Procedure > Inv..."
+    },
+    {
+      "query": "How to adjust budget billing amount after rate change?",
+      "intent": "procedure",
+      "domain": "billing",
+      "top_document": "Changing Budget Billing Amounts",
+      "top_source_id": 11,
+      "top_score": 0.8859,
+      "latency_ms": 741.38,
+      "snippet": "[DOCUMENT]\nChanging Budget Billing Amounts\n\n[PATH]\nSAP Utilities Billing Procedure > Billing Procedure > Invoicing > Budget Billing Plan Pro..."
+    },
+    {
+      "query": "How does payment lot processing work in SAP FI-CA?",
+      "intent": "procedure",
+      "domain": "clearing",
+      "top_document": "Clearing Control in Incoming Payments",
+      "top_source_id": 20,
+      "top_score": 0.5984,
+      "latency_ms": 1167.09,
+      "snippet": "[DOCUMENT]\nClearing Control in Incoming Payments\n\n[PATH]\nClearing Control in Incoming Payments > Contract Accounting\n\n[SECTION]\nContract Acc..."
+    },
+    {
+      "query": "What is the role of clearing proposal in automatic payment processing?",
+      "intent": "procedure",
+      "domain": "clearing",
+      "top_document": "Clearing Control in Incoming Payments",
+      "top_source_id": 20,
+      "top_score": 0.7818,
+      "latency_ms": 1496.92,
+      "snippet": "[DOCUMENT]\nClearing Control in Incoming Payments\n\n[PATH]\nClearing Control in Incoming Payments > Contract Accounting\n\n[SECTION]\nContract Acc..."
+    },
+    {
+      "query": "How to process partial payment clearing in incoming payments?",
+      "intent": "procedure",
+      "domain": "clearing",
+      "top_document": "Clearing Strategies when Assigning Incoming Payments",
+      "top_source_id": 20,
+      "top_score": 0.9582,
+      "latency_ms": 835.57,
+      "snippet": "[DOCUMENT]\nClearing Strategies when Assigning Incoming Payments\n\n[PATH]\nClearing Control in Incoming Payments > Clearing Strategies when Ass..."
+    },
+    {
+      "query": "How do I deactivate or cancel an installment plan in FI-CA?",
+      "intent": "procedure",
+      "domain": "installment_plan",
+      "top_document": "Installment Plan History",
+      "top_source_id": 23,
+      "top_score": 0.7435,
+      "latency_ms": 697.96,
+      "snippet": "[DOCUMENT]\nInstallment Plan History\n\n[PATH]\nInstallment Plan Overview > Installment Plan > Installment Plan History > Key Features\ue088\n\n[SECTIO..."
+    },
+    {
+      "query": "What charges and interest are calculated when creating an installment plan?",
+      "intent": "general",
+      "domain": "installment_plan",
+      "top_document": "Creating Installment Plans",
+      "top_source_id": 23,
+      "top_score": 0.7552,
+      "latency_ms": 1184.59,
+      "snippet": "[DOCUMENT]\nCreating Installment Plans\n\n[PATH]\nInstallment Plan Overview > Installment Plan > Creating Installment Plans > Key Features\ue088\n\n[SE..."
+    },
+    {
+      "query": "How does the dunning proposal run select open items?",
+      "intent": "general",
+      "domain": "dunning",
+      "top_document": "Dunning Proposal Run",
+      "top_source_id": 26,
+      "top_score": 0.8623,
+      "latency_ms": 1180.82,
+      "snippet": "[DOCUMENT]\nDunning Proposal Run\n\n[PATH]\nFI CA Dunning > Dunning > Dunning Run > Dunning Proposal Run > Contract Accounting\n\n[SECTION]\nContra..."
+    },
+    {
+      "query": "What format is used for exporting receivables to an external collection agency?",
+      "intent": "general",
+      "domain": "collection_agency",
+      "top_document": "Submission of Receivables to Collection Agency",
+      "top_source_id": 27,
+      "top_score": 0.9418,
+      "latency_ms": 1267.11,
+      "snippet": "[DOCUMENT]\nSubmission of Receivables to Collection Agency\n\n[PATH]\nSubmission of Receivables to Collection Agency > Submission of Receivables..."
+    },
+    {
+      "query": "How to process payment notification files received from a collection agency?",
+      "intent": "procedure",
+      "domain": "collection_agency",
+      "top_document": "Submission of Receivables to Collection Agency",
+      "top_source_id": 27,
+      "top_score": 0.7619,
+      "latency_ms": 1524.3,
+      "snippet": "[DOCUMENT]\nSubmission of Receivables to Collection Agency\n\n[PATH]\nSubmission of Receivables to Collection Agency > Submission of Receivables..."
+    },
+    {
+      "query": "What is the workflow for executing a utility disconnection order?",
+      "intent": "overview",
+      "domain": "disconnection",
+      "top_document": "Disconnection Order Generation",
+      "top_source_id": 10,
+      "top_score": 0.7458,
+      "latency_ms": 811.85,
+      "snippet": "[DOCUMENT]\nDisconnection Order Generation\n\n[PATH]\nMeter Reading Data During Move In > Meter Reading Data (Move-In) > Disconnection/Reconnect..."
+    },
+    {
+      "query": "How is a reconnection order triggered after payment receipt?",
+      "intent": "general",
+      "domain": "disconnection",
+      "top_document": "Entry of a Payment with External Selections",
+      "top_source_id": 22,
+      "top_score": 0.3976,
+      "latency_ms": 1372.19,
+      "snippet": "[DOCUMENT]\nEntry of a Payment with External Selections\n\n[PATH]\nProcessing Incoming Payments from External Cash Desks > Processing Incoming P..."
+    },
+    {
+      "query": "How do move-in meter readings integrate with billing billing orders?",
+      "intent": "general",
+      "domain": "billing",
+      "top_document": "Display Suppressed Billing Orders (F3132)",
+      "top_source_id": 16,
+      "top_score": 0.8905,
+      "latency_ms": 702.79,
+      "snippet": "[DOCUMENT]\nDisplay Suppressed Billing Orders (F3132)\n\n[PATH]\nPeriodic Billing and Invoicing Analysis > SAP Documentation Topic > Fiori Apps ..."
+    },
+    {
+      "query": "What is a joint move-in move-out transaction?",
+      "intent": "overview",
+      "domain": "move_in_out",
+      "top_document": "Move-In/Out",
+      "top_source_id": 2,
+      "top_score": 0.8798,
+      "latency_ms": 524.28,
+      "snippet": "[DOCUMENT]\nMove-In/Out\n\n[PATH]\nMove In Out Overview > Move-In/Out > Features\ue088\n\n[SECTION]\nFeatures\ue088\n\n[CONTENT]\nYou can have the system trigge..."
+    },
+    {
+      "query": "How are credit memos handled in budget billing reconciliation?",
+      "intent": "general",
+      "domain": "billing",
+      "top_document": "Determination of the Budget Billing Due Date",
+      "top_source_id": 11,
+      "top_score": 0.8322,
+      "latency_ms": 1539.0,
+      "snippet": "[DOCUMENT]\nDetermination of the Budget Billing Due Date\n\n[PATH]\nSAP Utilities Billing Procedure > Billing Procedure > Invoicing > Budget Bil..."
+    },
+    {
+      "query": "What is the enterprise search index structure for utility master data?",
+      "intent": "overview",
+      "domain": "general",
+      "top_document": "Enterprise Search for Utilities Master Data",
+      "top_source_id": 16,
+      "top_score": 0.7058,
+      "latency_ms": 1137.54,
+      "snippet": "[DOCUMENT]\nEnterprise Search for Utilities Master Data\n\n[PATH]\nPeriodic Billing and Invoicing Analysis > SAP Documentation Topic > Enterpris..."
+    },
+    {
+      "query": "How to monitor open dunning notices in FI-CA customer service?",
+      "intent": "procedure",
+      "domain": "dunning",
+      "top_document": "Archiving Dunning Notices",
+      "top_source_id": 26,
+      "top_score": 0.896,
+      "latency_ms": 1747.61,
+      "snippet": "[DOCUMENT]\nArchiving Dunning Notices\n\n[PATH]\nFI CA Dunning > Dunning > Archiving Dunning Notices > Contract Accounting\n\n[SECTION]\nContract A..."
+    },
+    {
+      "query": "What BAPIs are available for contract account modification?",
+      "intent": "technical_api",
+      "domain": "contract_accounts",
+      "top_document": "Customizing for Contract Accounts Receivable and Payable",
+      "top_source_id": 11,
+      "top_score": 0.6517,
+      "latency_ms": 1557.8,
+      "snippet": "[DOCUMENT]\nCustomizing for Contract Accounts Receivable and Payable\n\n[PATH]\nSAP Utilities Billing Procedure > Billing Procedure > Invoicing ..."
+    },
+    {
+      "query": "How does automatic clearing handle small difference amounts?",
+      "intent": "general",
+      "domain": "clearing",
+      "top_document": "Examples: Sort String for Account Maintenance with Clearing of All Items Sorted by Due Date",
+      "top_source_id": 21,
+      "top_score": 0.6323,
+      "latency_ms": 1558.46,
+      "snippet": "[DOCUMENT]\nExamples: Sort String for Account Maintenance with Clearing of All Items Sorted by Due Date\n\n[PATH]\nClearing Types > Clearing Typ..."
+    },
+    {
+      "query": "What is a point of delivery POD role configuration?",
+      "intent": "overview",
+      "domain": "general",
+      "top_document": "Point of Delivery (PoD)",
+      "top_source_id": 1,
+      "top_score": 0.3915,
+      "latency_ms": 707.63,
+      "snippet": "[DOCUMENT]\nPoint of Delivery (PoD)\n\n[PATH]\nUtilities Master Data > Master Data > Point of Delivery (PoD) > Master Data\n\n[SECTION]\nMaster Dat..."
+    }
+  ]
+}
